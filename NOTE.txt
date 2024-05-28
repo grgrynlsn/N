@@ -8,8 +8,8 @@ Symbol \
 
        ^  %         | +: Parameter
        ^  :         | +: Relation
-                       ^ Correspondency' +. " | Operation \ Read : Low
-                                              |           ^ Write :: High
+                       ^ Correspondency' +. " | Operation \ Read :: Low
+                                              |           ^ Write :  High
                                               |  "    
 
        ^  =         | +: Name
@@ -19,8 +19,8 @@ Symbol \
        ^  =`        | +: Part
        ^  ==>       | +: Real_Procedural_Event
        ^  ==`       | +: Part_Process
-       ^  =>       | +: Real_Procedural_Event
-       ^  =        | +: Illustration +. " Stravinsky (Music) := Picasso "!" Read (Low) := (High) Write  "
+       ^  :=>       | +: Real_Procedural_Event
+       ^  :=        | +: Illustration +. " Stravinsky (Music) := Picasso "!" Read (Low) := (High) Write  "
 
        ^  +         | +: Implement 
                     | +. " Classification_And_Regression_Tree + Column_Name'/ Node "
@@ -40,6 +40,7 @@ Symbol \
        ^  +-        | +: Support
        ^  +;        | +: Perbaiki!Mengobati
        ^  -;        | +: Merusak!Injure
+       ^  ;         | +: Regulate?Mengatur
 
        ^  \         | +: Category,explicit!!As!>Description
        ^  >         | +: Category,implicit
@@ -55,27 +56,25 @@ Symbol \
        ^  =>        | +: After!Before
        ^  >=>       | +: Since!Until
 
-       ^  ;         | +: Regulate?Mengatur
-       ^  ;>        | +: Produce +. " Chef ;> Meat"
-                    | +: Transform +. " Chef ;> (Raw_Food) Meat"
+       ^  .         | +: In!Nominal
+       ^  ..        | +: On
+       ^  .:        | +: Through!Nominal
+       ^  .=        | +: Between!Nominal
+       ^  .<        | +: From!Nominal
+       ^  .>        | +: To!Nominal
 
-       ^ .          | +: In!Nominal
-       ^ ..         | +: On
-       ^ .:         | +: Through!Nominal
-       ^ .=         | +: Between!Nominal
-       ^ .<         | +: From!Nominal
-       ^ .>         | +: To!Nominal
-
-       ^ ,          | +: Description!Compund_verb
+       ^  ,         | +: Description!Compund_verb
                        ^ Characteristic,possessed
-       ^ ,,         | +: With!Than
-       ^ ,-         | +: Less
-       ^ ,+         | +: More
-       ^ ,>         | +: End_form 
-       ^ ,<         | +: Begin_form
-       ^ ,%         | +: According
-       ^ ,\         | +: Like
-       ^ ,/         | +: As
+       ^  ,,        | +: With!Than
+       ^  ,-        | +: Less
+       ^  ,+        | +: More
+       ^  ,>        | +: End_form 
+                       ^ Produce +. " Chef ,> Meat"
+                       ^ Transform +. " Chef ,> (Raw_Food) Meat"
+       ^  ,<        | +: Begin_form
+       ^  ,%        | +: According
+       ^  ,\        | +: Like
+       ^  ,/        | +: As
 
        ^  #         | +: State!Believe +. " Noun # Noun #verb "
        ^  > #       | +: Extract
