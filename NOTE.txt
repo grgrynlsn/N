@@ -1,0 +1,195 @@
+####################################################################################################
+
+Symbol \  
+       ^  -         | +: Object!List!Subtopic?Scope
+       ^  --        | +: Subject
+
+       ^  #         | +: Believe
+
+       ^  %         | +: Parameter
+       ^  :         | +: Relation
+                       ^ Correspondency' +. " | Operation \ Read : Low
+                                              |           ^ Write :: High
+                                              |  "    
+
+       ^  =         | +: Name
+       ^  ==        | +: Definition
+       ^  =%        | +: Measurement_of
+       ^  =\        | +: Composition
+       ^  =`        | +: Part
+       ^  ==>       | +: Real_Procedural_Event
+       ^  ==`       | +: Part_Process
+       ^  =>       | +: Real_Procedural_Event
+       ^  =        | +: Illustration +. " Stravinsky (Music) := Picasso "!" Read (Low) := (High) Write  "
+
+       ^  +         | +: Implement 
+                    | +. " Classification_And_Regression_Tree + Column_Name'/ Node "
+       ^  +:        | +: Implement,indirect!!Tugas
+       ^  ++        | +: Solution 
+       ^  +.        | +: Implement>Subject 
+       ^  ++.       | +: Solution>Subject 
+       ^  +<        | +: Menerima?Mengurus-Input
+
+       ^  +%        | +: Positive_Correlation
+       ^  -%        | +: Negative_Correlation
+       ^  +=        | +: Increase
+       ^  -=        | +: Decrease
+       ^  +\        | +: Advantage
+       ^  -\        | +: Disadvantage!Problem>Subject
+
+       ^  +-        | +: Support
+       ^  +;        | +: Perbaiki!Mengobati
+       ^  -;        | +: Merusak!Injure
+
+       ^  \         | +: Category,explicit!!As!>Description
+       ^  >         | +: Category,implicit
+       ^  \>        | +: Example
+       ^  :>        | +: Case
+       ^  %>        | +: Based_on
+       ^  +>        | +: Specific_Application
+
+       ^  ><        | +: Contradiction
+       ^  <>        | +: SameTime
+       ^  >>        | +: Goal
+       ^  ->        | +: Cause
+       ^  =>        | +: After!Before
+       ^  >=>       | +: Since!Until
+
+       ^  ;         | +: Regulate?Mengatur
+       ^  ;>        | +: Produce +. " Chef ;> Meat"
+                    | +: Transform +. " Chef ;> (Raw_Food) Meat"
+
+       ^ .          | +: In!Nominal
+       ^ ..         | +: On
+       ^ .:         | +: Through!Nominal
+       ^ .=         | +: Between!Nominal
+       ^ .<         | +: From!Nominal
+       ^ .>         | +: To!Nominal
+
+       ^ ,          | +: Description!Compund_verb
+                       ^ Characteristic,possessed
+       ^ ,,         | +: With!Than
+       ^ ,-         | +: Less
+       ^ ,+         | +: More
+       ^ ,>         | +: End_form 
+       ^ ,<         | +: Begin_form
+       ^ ,%         | +: According
+       ^ ,\         | +: Like
+       ^ ,/         | +: As
+
+       ^  #         | +: State!Believe +. " Noun # Noun #verb "
+       ^  > #       | +: Extract
+       ^  < #       | +: Signifying_Event
+       ^  + #       | +: Process>Method!Rules
+ 
+       ^  ~         | +: Not!Potential
+       ^  ()        | +: Symbol_Argument
+       ^  []        | +: CodeBlock
+                       ^ Skipping_Noun
+
+
+####################################################################################################
+
+NounSymbol \
+           ^  {     | +: Main_Indicator!Referring-Main
+           ^  &     | +: Previous_Symbol
+           ^  \s{   | +: Refer-Description,separated--Space
+           ^  @     | +: Refer-Past
+                       ^ Referring-Statement +. @Dog@eat
+           ^  '     | +: Possession +. "That_Man'Bag"
+                    |  ^ Describe,previous
+           ^  ?!    | \
+                      ^  !      | +: One_Word
+                      ^  !>     | +: Include-Another_Self_Implicit_Category
+                      ^  !!     | +: Group_Word
+                      ^  !!!    | +: Previous_All
+
+Assigned_Variable +. " | Apple = X
+                       | Seed.@X posionous
+                       | " 
+
+Symbol>Verb_Preposition ~require-Main_Reset
+
+SentenceSymbol \  |     | +: TempMain>MultiLine
+               ^  \s}   | +: TempMain>Inline
+               ^  ^     | +: Symbol_Repeater
+               ^  ^^    | +: Raw_Repeater +. " |Number \ 9  } ,- Tenth_One}  ,+ 100
+                                               |       ^ 18 ^^        _Eight     ^^ 
+                                               |       ^ 18 ^^        _Eight     ^^
+                                               | "
+               ^  ]     | +: Main_Indicator>Statement
+               ^  [     | +: TempMain>Statement
+               ^  &     | +: Statement_Order +. " Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World "
+               ^  {[    | +: Refer-Main_Statement +. " Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World"
+
+Doubtful_Statement \> " I alone [? "
+
+Question \> " Dog = What "
+          ^ " Fly-Airplane = How "
+          ^ " Reason{> #She # leaves-me = What "
+
+
+
+####################################################################################################
+Sample \>
+
+
+Development_principle{/Noun
+Development_principle{/Noun
+Development-{Knowledge'bad{'good
+Development-{Knowledge'bad{good
+Development-{Knowledge{bad{good
+
+Development/Object{/Noun
+
+Development-[],good,bad
+Development-{[]'good{'bad
+
+Symphony6'Tchaikovsky
+
+Kill- Chicken --Dog
+kill- Chicken {-- Dog
+
+Generate-Sentence ~require- Formal_Grammar_Knowledge
+generate- Sentence { ~not_require- Formal_Grammar_Knowledge
+
+He give-Apple..> Him
+Agustinus dibiayai{- Pendidikan
+
+Agustinus dibiayai-Pendidikan{--Ayah
+Agustinus dibiayai-Pendidikan {-- Ayah
+Agustinus dibiayai- Pendidikan {-- Ayah
+
+FaureRequiem change-Key<.Dminor.>Dmajor
+FaureRequiem change-Key.<Dminor.>Dmajor
+FaureRequiem change-Key.< Dminor.> Dmajor
+FaureRequiem change-Key.< Dminor {.> Dmajor
+
+I pray.> Stars
+I pray,around_Stars
+
+Dog bite- Cat{ annoys- Noun{ verb 
+
+Dog eat- Cat } grumpy annoyed
+
+Colour \ Red } \ Pink } \ Light_Pink
+\ Dark_Pink \ Medium_Pink
+
+Dog eat- Cat } eat- Rat } eat- Cheese
+@Rat breed,rapid
+
+He # @Rat@breed
+
+MichaelAngelo dibayar,- DaVinci melukis-Otot [<= dilahirkan
+
+MichaelAngelo melukis- Otot [ salah
+
+MichaelAngelo dibayar,- DaVinci melukis-Otot [<= #MichaelAngelo # - Noun
+
+Dog eat-Cat [-> eat-Chicken [[-> / Carnivoure [[&[-> Absurdity.World
+
+Dog eat- Cat [-> eat- Chicken [[-> / Carnivoure [[&[-> Absurdity.World verb
+
+Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World 
+                                                      
+I (Meat) eat

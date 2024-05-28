@@ -1,0 +1,109 @@
+
+- Pajak
+	=- PPN Impor
+		=- Masukan
+		=- Keluaran (offset)
+		~ persenan dihitung setelah ditambah bea masuk
+		~ tidak item spesifik
+	=- Bea masuk
+	=- PPH 
+		~ harga beli dipotong
+		-~ bukti pembayaran potongan harus diberikan ke penjual
+		=- PPH impor
+		=- PPH karyawan (gajii)
+		=- PPH jasa (transportasi)
+	=- SPT
+		-~ pribadi, persuhaan terpisah
+		~ berdasarkan pendapatan
+	=- Pajak pendapatan
+
+	- Konsultan Pajak
+		- mediator antara badan dan kantor pajak
+		=-. SPT & ID-billing PPN - sales invoice pembelian, sales invoice penjualan, fraktur pajak
+		=-. SPT & ID-billing pajak pendapatan - sales invoice pembelian, sales invoice penjualan, fraktur pajak, kuitansi, nota
+		=-. SPT & ID-billing PPH jasa - invoice jasa
+		=-. SPT & ID-billing PPH karyawan - slip gaji
+		-~ ID-billing untuk pembayaran pajak
+
+
+
+- Proses penjualan
+	=- Pemesanan
+		=- Supplier
+			> email 
+			> purchase order
+			> order confirmation
+			> pembayaran
+			> sales invoice pembelian (hs code), packing list, etc 
+		=- Fowarder
+			> bill of ladding
+			> PIB (PPN, PPH, BEA MASUK)
+		=- Bea cukai
+			- dokumen untuk keluar gudang pajak
+				=- invoice pembelian (hs code), packing list, bill of ladding
+				=- bukti pembayaran, bukti pembayaran pajak
+				=- surat pernyataan keaslian invoice, surat kuasa, surat pernyataan kegunaan barang, DMP, etc 
+
+	=- Penjualan
+		- Invoice penjualan
+			=- Sales Invoice
+			=- Fraktur Pajak
+				~ pembuatan menggunakan aplikasi dekstop
+			=- Delivery Order
+
+
+
+- Karyawan
+	=- Akuntan
+	=- Keuangan
+	=- Logistik
+	=- Admin
+	=- Gudang 
+		
+
+
+- Bank
+	- Tipe rekening
+		=- Giro: rekening koran
+		=- Tabungan: buku tabungan
+		-~ Rekening mata uang asing tidak semua mendapatkan bunga
+	- Metode perpindahan uang
+		=- cek
+		=- bilyet giro
+		=- slip clearing
+		=- surat autorisasi
+			~ transfer uang asing
+		=- e-banking
+		=- form transfer
+		=- slip setor
+		=- form penarikan
+	- Petugas
+		- Customer Service
+			-\ =- buka/tutup rekening
+			\ =- buku bank
+		- Teller
+			-\ =- transfer
+			\=- setor
+			\=- pembayaran
+		- Talas
+
+
+
+- Notaris
+	- Pembuatan surat-surat
+		=- Akte Pendirian
+			 - tipe perusahaan
+				=- pedagang mikro
+				=- pedagang kecil
+				=- pedagang menengah
+				=- pedagang besar	
+		=- Surat izin usaha perusahaan (SIUP)
+		=- Angka pengenalan import (API) 
+		=- Nomor wajib pajak (NPWP)
+		=- Izin domisili: gedung
+
+
+
+
+
+

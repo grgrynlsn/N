@@ -1,0 +1,121 @@
+"git config --list"
+
+
+
+"git init"
+
+"git status"
+
+"git rm"
+
+
+
+"git add ."
+
+"git commit -m""menambah garis"""
+, memindahkan- Head!Current.Branch
+
+"git commit -am""menambah garis"""
+++: Modified.File
+
+
+
+"git log -3"
+
+"git log --file.txt"
+
+"git checkout 44adfc5"
+,> Detached.Head =>~ *create-branch'=>~ *merge: New.Branch 
+
+"git checkout 44adfc5 -- file.txt"
+, tidak.memindahkan'-Head ,memindahakan-file'>)StagingArea'=>~ *commit
+
+ 
+
+####################################################################################################
+
+"git branch"
+, check
+
+"git branch dosen"
+, blm.pindah'-Branch,baru
+
+"git branch --merged"
+, check
+
+
+
+"git checkout dosen"
+
+"git checkout -b dosen"
+, otomatis.membuat'-Branch
+
+
+
+"git merge BranchName"
+<- Head.(Moving.Branch)
+>> FastForward
+ ^ ThreeWayMerge, membuat- Commit.Gabungan
+   ^^ < Case>Conflict'==> *create-Resolve.File
+                        ^ *add>)StagingArea
+                        ^ *commit 
+
+
+
+"git branch -d dosen"
+, delete-Branch
+
+"git branch -D dosen"
+++: Branch,blm.dimerged
+
+"git push RemoteName -d branchName"
+
+
+
+####################################################################################################
+
+"git clone https://"
+, otomatis.menambah- Init!Remote
+
+
+
+"git push"
+, fastForwardMerge-Remote'>) Current.Branch ,can.create'-Branch'.(Remote)
+
+"git push RemoteName BranchName"
+
+"git push -u RemoteName BranchName"
+
+
+
+"git remote"
+, check
+
+"git remote add RemoteName https://"
+, initiate-Relation ,allow-Multiple.Remote
+
+
+
+"git fetch"
+, update-Remote'.(Graph)
+
+"git fetch remoteName"
+
+"git pull"
+, otomatis.fetch = *merge,with- Remote 
+< Case>Conflict'==> *create-Resolve:(Edited.Remote!!Local) 
+                  ^ *add!commit
+                  ^ *push
+
+"git merge RemoteName/BranchName"
+, fastForwardMerge- Local.Head;>) Remote
+
+
+
+"git rebase BranchName"
+, memindahkan- Commit.Pertama'>Current.Branch;>(BranchName)
+
+
+
+
+
