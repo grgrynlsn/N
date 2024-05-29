@@ -1,8 +1,8 @@
-for
 
 ####################################################################################################
 
-Symbol \  
+Symbol \  \s\s      | +: Description
+                       ^ Characteristic,possessed
        ^  -         | +: Object!List!Subtopic?Scope
        ^  --        | +: Subject
 
@@ -10,9 +10,9 @@ Symbol \
 
        ^  %         | +: Parameter
        ^  :         | +: Relation
-                       ^ Correspondency' +. " | Operation \ Read :: Low
-                                              |           ^ Write :  High
-                                              |  "    
+                       ^ Correspondency' +. [| Operation \ Read  :: Low
+                                             |           ^ Write  : High
+                                             |]
 
        ^  =         | +: Name
        ^  ==        | +: Definition
@@ -22,7 +22,7 @@ Symbol \
        ^  ==>       | +: Real_Procedural_Event
        ^  ==`       | +: Part_Process
        ^  :=>       | +: Real_Procedural_Event
-       ^  :=        | +: Illustration +. " Stravinsky (Music) := Picasso "!" Read (Low) := (High) Write  "
+       ^  :=        | +: Illustration +. [| Stravinsky (Music) := Picasso "!" Read (Low) := (High) Write
 
        ^  +         | +: Implement 
                     | +. " Classification_And_Regression_Tree + Column_Name'/ Node "
@@ -30,7 +30,7 @@ Symbol \
        ^  ++        | +: Solution 
        ^  +.        | +: Implement>Subject 
        ^  ++.       | +: Solution>Subject 
-       ^  +<        | +: Menerima?Mengurus-Input
+       ^  +-        | +: Menerima?Mengurus-Input
 
        ^  +%        | +: Positive_Correlation
        ^  -%        | +: Negative_Correlation
@@ -38,11 +38,13 @@ Symbol \
        ^  -=        | +: Decrease
        ^  +\        | +: Advantage
        ^  -\        | +: Disadvantage!Problem>Subject
+       ^  +,        | +: Perbaiki!Mengobati
+       ^  -,        | +: Merusak!Injure
 
-       ^  >-        | +: Support
-       ^  +-        | +: Perbaiki!Mengobati
-       ^  --        | +: Merusak!Injure
-       ^  ;         | +: Regulate?Mengatur
+       ^  ,-        | +: Regulate?Mengatur
+       ^  ,+        | +: Support
+       ^  ,>        | +: Produce +. [| Chef ,> Meat
+                       ^ Transform +. [| Chef ,> (Raw_Food) Meat
 
        ^  \         | +: Category,explicit!!As!>Description!!Specific_Application
        ^  >         | +: Category,implicit!!Case
@@ -57,36 +59,40 @@ Symbol \
        ^  =>        | +: After!Before
        ^  >=>       | +: Since!Until
 
+       ^  ,         | +: Description!Compund_verb
+                       ^ Characteristic,possessed
+       ^  ,"        | +: For
+       ^  ;         | = [[,.]]?In
        ^  .         | +: In!Nominal
        ^  ..        | +: On
        ^  .:        | +: Through!Nominal
        ^  .=        | +: Between!Nominal
        ^  .<        | +: From!Nominal
+                       ^ End_Form/Symbol_Description
        ^  .>        | +: To!Nominal
+                       ^ Begin_Form/Symbol_Description
+       ^  .,        | +: With!Than
+       ^  .-        | +: Less
+       ^  .+        | +: More
+       ^  .%        | +: According
+       ^  .\        | +: Like
+       ^  ./        | +: As
 
-       ^  ,         | +: Description!Compund_verb
-                       ^ Characteristic,possessed
-       ^  ,,        | +: With!Than
-       ^  ,-        | +: Less
-       ^  ,+        | +: More
-       ^  ,>        | +: End_form 
-                       ^ Produce +. " Chef () ,> Meat"
-                       ^ Transform +. " Chef ,> (Raw_Food) Meat"
-       ^  ,<        | +: Begin_form
-       ^  ,%        | +: According
-       ^  ,\        | +: Like
-       ^  ,/        | +: As
 
-       ^  #         | +: State!Believe +. " Noun # Noun #verb "
+       ^  #         | +: State!Believe +. [| Noun # Noun #verb
        ^  > #       | +: Extract
        ^  < #       | +: Signifying_Event
        ^  + #       | +: Process>Method!Rules
  
-       ^  ~         | +: Not!Potential
+       ^  ~         | +: Not
+       ^  ~\s       | +: Potential
        ^  ()        | +: Symbol_Argument
-       ^  []        | +: CodeBlock
+       ^  [|        | +: CodeBlock
                        ^ Skipping_Noun
 
+       ^  _         | +: Be!Become +. [| He ~annoying
+       ^  ,+_       | +: Dynamic_Noun>More +. [| Scarcity,+_ ,> Value
+       ^  ,-_       | +: Dynamic_Noun>Less +. [| Carbs,+_  healthier
 
 ####################################################################################################
 
@@ -96,37 +102,39 @@ NounSymbol \
            ^  \s{   | +: Refer-Description,separated--Space
            ^  @     | +: Refer-Past
                        ^ Referring-Statement +. @Dog@eat
-           ^  '     | +: Possession +. "That_Man'Bag"
+           ^  '     | +: Possession +. [That_Man'Bag]
                     |  ^ Describe,previous
+           ^  "     | +: For!Purpose!Goal
            ^  ?!    | \
                       ^  !      | +: One_Word
                       ^  !>     | +: Include-Another_Self_Implicit_Category
                       ^  !!     | +: Group_Word
                       ^  !!!    | +: Previous_All
 
-Assigned_Variable +. " | Apple = X
-                       | Seed.@X posionous
-                       | " 
+Assigned_Variable +. [| Apple = X
+                      | Seed.@X posionous
+                      |] 
 
 Symbol>Verb_Preposition ~require-Main_Reset
 
-SentenceSymbol \  |     | +: TempMain>MultiLine
+SentenceSymbol \ 
+               ^  |     | +: TempMain>MultiLine
                ^  \s}   | +: TempMain>Inline
                ^  ^     | +: Symbol_Repeater
-               ^  ^^    | +: Raw_Repeater +. " |Number \ 9  } ,- Tenth_One}  ,+ 100
-                                               |       ^ 18 ^^        _Eight     ^^ 
-                                               |       ^ 18 ^^        _Eight     ^^
-                                               | "
+               ^  ^^    | +: Raw_Repeater +. [|Number \ 9  } .- Tenth_One}  .+ 100
+                                              |       ^ 18 ^^       _Eight     ^^ 
+                                              |       ^ 18 ^^       _Eight     ^^
+                                              |]
                ^  ]     | +: Main_Indicator>Statement
                ^  [     | +: TempMain>Statement
-               ^  &     | +: Statement_Order +. " Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World "
-               ^  {[    | +: Refer-Main_Statement +. " Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World"
+               ^  &     | +: Statement_Order +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
+               ^  {[    | +: Refer-Main_Statement +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
 
-Doubtful_Statement :` " I alone [? "
+Doubtful_Statement :` [| I alone [?0
 
-Question :` " Dog = What "
-          ^ " Fly-Airplane = How "
-          ^ " Reason{> #She # leaves-me = What "
+Question :` [| Dog = What
+          ^ [| Fly-Airplane = How
+          ^ [| Reason{> #She # leaves-me = What
 
 
 

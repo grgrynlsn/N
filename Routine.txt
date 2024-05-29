@@ -2,61 +2,63 @@
 ####################################################################################################
 
 Car 
-Guitar
-Music
+WRI
+SPK
 Phone Type
+
+Guitar
 Steno
 German
-SPK
-WRI
+Music
+IT
 Coding
 
 ####################################################################################################
 
-World.Thought`- Abstraction >< Thought.World`--Reality
+World.Thought :: Abstraction >< Thought.World{: Reality
 
-Development_Cycle ==> Event | ~,Signifier ,punctuatued--Action
-                    ^ Abstraction, punctuatued--Perception
+Development_Cycle ==> Event ~Signifier  punctuatued--Action
+                    ^ Abstraction{ punctuatued--Perception
                     ^ New_Statement
 
-Abstraction ,> Part>World [-> ,subjected--Interpretation [-> ,become_effective>>Action
+Abstraction .> Part>World [-> ,subjected--Interpretation [-> _effective"Action
 
-Algorithmic_Thinking + # Each_Line ,united,,Unbouded_Predeceeding_Line^#
+Algorithmic_Thinking + #Each_Line # united.,Unbouded_Predeceeding_Line
 
 
 ####################################################################################################
 
 Foreign_Language / Extension_Mother_Tongue
 
-Generate-Sentence ,not_require- Formal_Grammar_Knowledge || ,require-Itself [<- Semanitcs_Contradiction
-+ Hidden_Word, articulated--Position
+Generate-Sentence ~require- Formal_Grammar_Knowledge{ require-Itself [>> Avoid-Contradiction
+@Grammar + Hidden_Word, articulated--Position
 
-Grammar ;: Transformation>Part_Of_Speech
+Grammar ,- Transformation>Part_Of_Speech
          ^ Hidden_Part_Of_Speech
-, approached/Enclosed_Functon!Mystery_Box 
+approached./Enclosed_Functon!Mystery_Box 
 
-Combination_Word, punctuated [;> Meaning
+Combination_Word,punctuated [;> Meaning
 
-Language >= Semantic!Syntax>Sound!!Syntax>Visual
+Language =\ Semantic & Syntax>Sound & Syntax>Visual
 
-More_Transformation_Aspect_Language.Language_Process ,slower [-++ Rely,.Own_Syntax_Type
+Transformation_Aspect_Language.Language_Process,+_  slower [~ => Rely-Own_Syntax_Type
 
-Combination>Association > Group1' > Meaning!Meaning
-                                  ^ Sound!Meaning
-                                  ^ Sound!Visual
-                        ^ Group2' > Visual!Meaning
-                                  ^ Meaning!Visual
-                        ^ Group3' > Sound!Meaning
-                                  ^ Visual!Sound
+Combination>Association > Group1 } > Meaning!Meaning
+                                   ^ Sound!Meaning
+                                   ^ Sound!Visual
+                        ^ Group2 } > Visual!Meaning
+                                   ^ Meaning!Visual
+                        ^ Group3 } > Sound!Meaning
+                                   ^ Visual!Sound
 
-Resource \ Song!Chant!Haiku!Karuto!Vlog!Vtuber!Movie!Manga
+Resource \ Song & Chant & Haiku & Karuto & Vlog & Vtuber & Movie & Manga
 
 ####################################################################################################
 
-Shinjitai=Simplified_Kanji
+Shinjitai = Simplified_Kanji
 
-Joyo_Kanji=Common_Kanji \ Shoukei_Moji+ Pictographic
-                        ^ Shiji_Moji, represent-Idea
-                        ^ Kaii_Moji==Compound_Ideograph
-                        ^ Keisei_Moji' >= Semantic_Element==Radicals
-                                        ^ Phonetic_Element+ Onyomi
+Joyo_Kanji = Common_Kanji \ Shoukei_Moji{+ Pictographic
+                          ^ Shiji_Moji{ represent-Idea
+                          ^ Kaii_Moji{== Compound_Ideograph
+                          ^ Keisei_Moji{=\ Semantic_Element==Radicals
+                                         ^ Phonetic_Element{+ Onyomi
