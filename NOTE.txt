@@ -1,3 +1,5 @@
+for
+
 ####################################################################################################
 
 Symbol \  
@@ -37,17 +39,16 @@ Symbol \
        ^  +\        | +: Advantage
        ^  -\        | +: Disadvantage!Problem>Subject
 
-       ^  +-        | +: Support
-       ^  +;        | +: Perbaiki!Mengobati
-       ^  -;        | +: Merusak!Injure
+       ^  >-        | +: Support
+       ^  +-        | +: Perbaiki!Mengobati
+       ^  --        | +: Merusak!Injure
        ^  ;         | +: Regulate?Mengatur
 
-       ^  \         | +: Category,explicit!!As!>Description
-       ^  >         | +: Category,implicit
-       ^  \>        | +: Example
-       ^  :>        | +: Case
+       ^  \         | +: Category,explicit!!As!>Description!!Specific_Application
+       ^  >         | +: Category,implicit!!Case
+       ^  `         | +: OneCategory_Instance
+       ^  :`        | +: Example
        ^  %>        | +: Based_on
-       ^  +>        | +: Specific_Application
 
        ^  ><        | +: Contradiction
        ^  <>        | +: SameTime
@@ -121,16 +122,16 @@ SentenceSymbol \  |     | +: TempMain>MultiLine
                ^  &     | +: Statement_Order +. " Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World "
                ^  {[    | +: Refer-Main_Statement +. " Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World"
 
-Doubtful_Statement \> " I alone [? "
+Doubtful_Statement :` " I alone [? "
 
-Question \> " Dog = What "
+Question :` " Dog = What "
           ^ " Fly-Airplane = How "
           ^ " Reason{> #She # leaves-me = What "
 
 
 
 ####################################################################################################
-Sample \>
+Sample :`
 
 
 Development_principle{/Noun
