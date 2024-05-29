@@ -70,7 +70,7 @@ Symbol \
        ^  ,-        | +: Less
        ^  ,+        | +: More
        ^  ,>        | +: End_form 
-                       ^ Produce +. " Chef ,> Meat"
+                       ^ Produce +. " Chef () ,> Meat"
                        ^ Transform +. " Chef ,> (Raw_Food) Meat"
        ^  ,<        | +: Begin_form
        ^  ,%        | +: According
