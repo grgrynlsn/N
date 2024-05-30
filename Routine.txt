@@ -1,64 +1,55 @@
 
 ####################################################################################################
 
-Car 
-WRI
-SPK
-Phone Type
+Defecate
 
-Guitar
-Steno
-German
-Music
-IT
-Coding
+Plank & German_Listen
 
-####################################################################################################
+Exercise
 
-World.Thought :: Abstraction >< Thought.World{: Reality
+German_Grammar & German_Read & Stenograph
 
-Development_Cycle ==> Event ~Signifier  punctuatued--Action
-                    ^ Abstraction{ punctuatued--Perception
-                    ^ New_Statement
+Car & Breakfast
 
-Abstraction .> Part>World [-> ,subjected--Interpretation [-> _effective"Action
-
-Algorithmic_Thinking + #Each_Line # united.,Unbouded_Predeceeding_Line
+Sun & Medicine_Anki
 
 
-####################################################################################################
 
-Foreign_Language / Extension_Mother_Tongue
 
-Generate-Sentence ~require- Formal_Grammar_Knowledge{ require-Itself [>> Avoid-Contradiction
-@Grammar + Hidden_Word, articulated--Position
 
-Grammar ,- Transformation>Part_Of_Speech
-         ^ Hidden_Part_Of_Speech
-approached./Enclosed_Functon!Mystery_Box 
+Medicine
 
-Combination_Word,punctuated [;> Meaning
+Break & German_Listen
 
-Language =\ Semantic & Syntax>Sound & Syntax>Visual
+Guitar_Practice
 
-Transformation_Aspect_Language.Language_Process,+_  slower [~ => Rely-Own_Syntax_Type
+Break & Medicine_Anki
 
-Combination>Association > Group1 } > Meaning!Meaning
-                                   ^ Sound!Meaning
-                                   ^ Sound!Visual
-                        ^ Group2 } > Visual!Meaning
-                                   ^ Meaning!Visual
-                        ^ Group3 } > Sound!Meaning
-                                   ^ Visual!Sound
+German_Read & Stenograph
 
-Resource \ Song & Chant & Haiku & Karuto & Vlog & Vtuber & Movie & Manga
+Plank & Lunch & Type
 
-####################################################################################################
 
-Shinjitai = Simplified_Kanji
 
-Joyo_Kanji = Common_Kanji \ Shoukei_Moji{+ Pictographic
-                          ^ Shiji_Moji{ represent-Idea
-                          ^ Kaii_Moji{== Compound_Ideograph
-                          ^ Keisei_Moji{=\ Semantic_Element==Radicals
-                                         ^ Phonetic_Element{+ Onyomi
+
+
+Guitar_Music & Guitar_Practice
+
+Break & German_Listen
+
+Guitar_Practice
+
+Exercise
+
+Teeth!Shower
+
+Chemistry
+
+Break & Medicine_Anki
+
+Journal
+
+Computer & Technology
+
+
+

@@ -62,7 +62,7 @@ Symbol \  \s\s      | +: Description
        ^  ,         | +: Description!Compund_verb
                        ^ Characteristic,possessed
        ^  ,"        | +: For
-       ^  ;         | = [[,.]]?In
+       ^  ;         | = [[,.]] +: In
        ^  .         | +: In!Nominal
        ^  ..        | +: On
        ^  .:        | +: Through!Nominal
