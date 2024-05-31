@@ -1,0 +1,23 @@
+Cancel Selection
+shfit + backspace
+
+Second Edit Mode
+f2 + f2
+
+Switch between displaying cell values or formulas in the worksheet
+ctrl + `
+
+Absolute Reference
+f4
+
+Line Break
+alt + enter
+
+New Sheet
+shift+fll
+
+Bulk Formula Enter
+ctrl + enter
+
+Bulk Formula Fill
+ctrl + d

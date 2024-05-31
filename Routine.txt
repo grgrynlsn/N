@@ -2,53 +2,31 @@
 ####################################################################################################
 
 Defecate
-
 Plank & German_Listen
-
 Exercise
-
 German_Grammar & German_Read & Stenograph
-
-Car & Breakfast
-
+Car & Speak & Breakfast
 Sun & Medicine_Anki
 
 
 
-
-
 Medicine
-
 Break & German_Listen
-
 Guitar_Practice
-
 Break & Medicine_Anki
-
 German_Read & Stenograph
-
 Plank & Lunch & Type
 
 
 
-
-
 Guitar_Music & Guitar_Practice
-
 Break & German_Listen
-
 Guitar_Practice
-
 Exercise
-
-Teeth!Shower
-
+Teeth & Shower
 Chemistry
-
 Break & Medicine_Anki
-
 Journal
-
 Computer & Technology
 
 
