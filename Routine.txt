@@ -2,8 +2,7 @@
 ####################################################################################################
 
 Defecate
-Plank & German_Listen
-Exercise
+Plank & German_Listen & Exercise
 German_Grammar & German_Read & Stenograph
 Car & Speak & Breakfast
 Sun & Medicine_Anki
@@ -29,5 +28,7 @@ Break & Medicine_Anki
 Journal
 Computer & Technology
 
+
+####################################################################################################
 
 

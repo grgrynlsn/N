@@ -21,3 +21,9 @@ ctrl + enter
 
 Bulk Formula Fill
 ctrl + d
+
+Center Active Cell
+ctrl + backspace
+
+New Window same Book
+alt + w + n
