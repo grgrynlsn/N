@@ -1,105 +1,25 @@
 
-####################################################################################################
-
-German_Listen
-German_Read
-German_Grammar
-Stenograph
-Speak
-
-####################################################################################################
-
+LANG_Japan
 Exercise
-Plank
-Break
-
-####################################################################################################
-
-Medicine_Anki
-Medicine
-Chemistry
-
-####################################################################################################
-
-Guitar_Music
-Guitar_Practice
-==> Scale Shape & Thule Exercise
-  ^ Cracassi Matteo Etude
-  ^ Heitor Villa-Lobos Etude
-
-####################################################################################################
-
+Sun
+Business
+Guitar
+Piano
+Computer_Technology
+Car
 Journal
 
-Computer_Technology
-==> Git
-  ^ Design Pattern
-  ^ Debug
-  ^ Codeium
-  ^ Framework
-
-Car
-
-
 ####################################################################################################
 
-
-Eight Master Courses
-The master courses provide the foundational building blocks of medical and scientific knowledge. The courses range from two to 11 weeks.
-
-Read the eight master course descriptions.
-
-Introduction to the Profession (iPro)
-Scientific Foundations
-Genes and Development
-Attacks and Defenses
-Homeostasis
-Energy and Metabolism
-Connection to the World
-Across the Lifespan
-Four Longitudinal Courses
-Longitudinal Courses extend across and run concurrently with Master Courses. Content in Longitudinal Courses complements material in the Master Courses. Each Longitudinal Course lasts 4 to 8 months.
-
-Read the four longitudinal course descriptions.
-
-Professional Responsibility
-Anatomy
-Scientific Inquiry
-Populations & Methods
-Nine Longitudinal Threads
-Longitudinal Threads represent key scientific and social disciplines whose content is fundamental to the Master Courses. Content from Longitudinal Threads are woven into the curriculum of the Master Courses and Clerkships.
-
-Read the nine longitudinal thread descriptions.
-
-Biochemistry
-Cell Biology
-Diagnostic Methods
-Embryology
-Genetics
-Health Equity
-Pathology
-Pharmacology
-Physiology
+Guitar ==> Scale Shape & Thule Exercise
+         ^ Cracassi Matteo Etude
+         ^ Heitor Villa-Lobos Etude
 
 
-####################################################################################################
+Computer_Technology ==> Git
+                      ^ Design Pattern
+                      ^ Debug
+                      ^ Codeium
+                      ^ Framework
 
 
-Foundational science courses
-The primary academic focus of the first six blocks is the foundational sciences. Faculty combine didactic lectures with active learning to deliver engaging content in:
-
-Human Structure: gross and microscopic anatomy, cell biology, genetics, biochemistry, gross anatomy, and radiology
-Principles of Disease: pathology, immunology, microbiology, and pharmacology and therapeutics
-Systems courses
-After you complete the foundational sciences, advanced content is then explored, organized primarily by organ system. This approach integrates anatomy, physiology, and pathology to teach the following systems:
-
-Nervous system and neurosciences
-Psychiatry
-Cardiovascular system
-Respiratory system
-Hematology
-Musculoskeletal system and rheumatology
-Urinary system
-Reproductive system
-Endocrine system
-Gastrointestinal system
