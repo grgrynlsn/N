@@ -25,12 +25,12 @@ Symbol \  \s\s      | +: Description
        ^  :=        | +: Illustration +. [| Stravinsky (Music) := Picasso "!" Read (Low) := (High) Write
 
        ^  +         | +: Implement 
-                    | +. " Classification_And_Regression_Tree + Column_Name'/ Node "
-       ^  +:        | +: Implement,indirect!!Tugas
+                    | +: " Classification_And_Regression_Tree + Column_Name'/ Node "
+       ^  +<        | +: Implement>Subject 
        ^  ++        | +: Solution 
-       ^  +.        | +: Implement>Subject 
-       ^  ++.       | +: Solution>Subject 
+       ^  ++<       | +: Solution>Subject 
        ^  +-        | +: Menerima?Mengurus-Input
+       ^  +>        | +: Tugas!Fungsi
 
        ^  +%        | +: Positive_Correlation
        ^  -%        | +: Negative_Correlation
@@ -38,11 +38,11 @@ Symbol \  \s\s      | +: Description
        ^  -=        | +: Decrease
        ^  +\        | +: Advantage
        ^  -\        | +: Disadvantage!Problem>Subject
-       ^  +,        | +: Perbaiki!Mengobati
-       ^  -,        | +: Merusak!Injure
 
-       ^  ,-        | +: Regulate?Mengatur
-       ^  ,+        | +: Support
+       ^  ,+        | +: Perbaiki!Mengobati
+       ^  ,-        | +: Merusak!Injure
+       ^  ,--       | +: Regulate?Mengatur
+       ^  ,++       | +: Support
        ^  ,>        | +: Produce +. [| Chef ,> Meat
                        ^ Transform +. [| Chef ,> (Raw_Food) Meat
 
@@ -61,8 +61,6 @@ Symbol \  \s\s      | +: Description
 
        ^  ,         | +: Description!Compund_verb
                        ^ Characteristic,possessed
-       ^  ,"        | +: For
-       ^  ;         | = [[,.]] +: In
        ^  .         | +: In!Nominal
        ^  ..        | +: On
        ^  .:        | +: Through!Nominal
@@ -72,12 +70,13 @@ Symbol \  \s\s      | +: Description
        ^  .>        | +: To!Nominal
                        ^ Begin_Form/Symbol_Description
        ^  .,        | +: With!Than
+       ^  .;        | +: For
        ^  .-        | +: Less
        ^  .+        | +: More
        ^  .%        | +: According
        ^  .\        | +: Like
        ^  ./        | +: As
-
+       ^  ;         | = [[,.]] +: In
 
        ^  #         | +: State!Believe +. [| Noun # Noun #verb
        ^  > #       | +: Extract
@@ -90,9 +89,9 @@ Symbol \  \s\s      | +: Description
        ^  [|        | +: CodeBlock
                        ^ Skipping_Noun
 
-       ^  _         | +: Be!Become +. [| He ~annoying
-       ^  ,+_       | +: Dynamic_Noun>More +. [| Scarcity,+_ ,> Value
-       ^  ,-_       | +: Dynamic_Noun>Less +. [| Carbs,+_  healthier
+       ^  _         | +: Be!Become +. [| He_ unstable
+       ^  +_        | +: Dynamic_Noun>More +. [| Scarcity+_ ,> Value
+       ^  -_        | +: Dynamic_Noun>Less +. [| Carbs-_ healthier
 
 ####################################################################################################
 
