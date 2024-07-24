@@ -1,10 +1,18 @@
+git config --global alias.com "commit -m '...'"
+git config --global alias.ac "commit -am"
 
+git commit --amend -m "..."
+git revert [hash]
 
+git stash
+git pop
+git stash save [name]
+git list
+git apply [name]
 
-
-
-
-
+git fetch origin
+git reset --hard origin/master
+git clean -df
 
 
 
