@@ -80,7 +80,7 @@ Symbol \  \s\s      | +> Description
        ^  + #       | +> Process>Method!Rules
  
        ^  ~         | +> Not
-       ^  ~\s       | +> Potential
+       ^  ~~        | +> Potential
        ^  ()        | +> Symbol_Argument
        ^  [|        | +> CodeBlock
                        ^ Skipping_Noun
@@ -91,9 +91,8 @@ Symbol \  \s\s      | +> Description
 ####################################################################################################
 
 NounSymbol \
-           ^  }     | +> Subject_TempMain!Noun_TempMain
-           ^  {     | +> Subject_Main!Noun_Main
-           ^  _     | +> Compound_Noun!New_Main
+           ^  {     | +> Subject_TempMain!Noun_TempMain
+           ^  }     | +> New_Subject_Main!New_Noun_Main
            ^  @     | +> Refer-Past
                        ^ Referring-Statement \\ @Dog@eat
            ^  '     | +> Possession \\ [That_Man'Bag]
@@ -130,42 +129,27 @@ Question \\ [| Dog = What
 Sample \\
 
 
-Development_Principle{/Noun
-Development_Principle{/Noun
-Development-Knowledge,bad,good
+Development_Principle/Noun
+Development-}Knowledge,bad,good{{,complex
 
-
-Development/Object{/Noun
+Development/}Object/Noun
 
 Symphony6'Tchaikovsky
 
-Kill- Chicken --Dog
-kill- Chicken {-- Dog
+Kill-Chicken--Dog
 
-Generate-Sentence ~require- Formal_Grammar_Knowledge
-generate- Sentence { ~not_require- Formal_Grammar_Knowledge
+He give-Apple;>Him
 
-He give-Apple..> Him
-Agustinus dibiayai{- Pendidikan
+Agustinus dibiayai-Pendidikan--Ayah
+Agustinus dibiayai- Pendidikan --Ayah
 
-Agustinus dibiayai-Pendidikan}--Ayah
-Agustinus dibiayai-Pendidikan_}-- Ayah
-Agustinus dibiayai- Pendidikan_}-- Ayah
+FaureRequiem change-Key;<Dminor;>Dmajor
 
-FaureRequiem change-Key<.Dminor.>Dmajor
-FaureRequiem change-Key.<Dminor.>Dmajor
-FaureRequiem change-Key.< Dminor.> Dmajor
-FaureRequiem change-Key.< Dminor {.> Dmajor
-
-I pray.> Stars
-I pray,around_Stars
-
-Dog bite- Cat{ annoys- Noun{ verb 
+Dog bite- Cat { annoys- It 
 
 Dog eat- Cat } grumpy annoyed
 
 Colour \ Red } \ Pink } \ Light_Pink
-\ Dark_Pink \ Medium_Pink
 
 Dog eat- Cat } eat- Rat } eat- Cheese
 @Rat breed,rapid
@@ -183,5 +167,3 @@ Dog eat-Cat [-> eat-Chicken [[-> / Carnivoure [[&[-> Absurdity.World
 Dog eat- Cat [-> eat- Chicken [[-> / Carnivoure [[&[-> Absurdity.World verb
 
 Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World 
-                                                      
-I (Meat) eat
