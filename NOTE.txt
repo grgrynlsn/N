@@ -8,7 +8,7 @@ Symbol \  \s\s      | +> Description
 
        ^  %         | +> Parameter
        ^  :         | +> Relation
-                       ^ Correspondency' +. [| Operation \ Read : Low
+                       ^ Correspondency' \\ [| Operation \ Read : Low
                                              |           ^ Write :\ High
                                              |]
 
@@ -20,10 +20,9 @@ Symbol \  \s\s      | +> Description
        ^  ==>       | +> Real_Procedural_Event
        ^  ==`       | +> Part_Process
        ^  :=>       | +> Real_Procedural_Event
-       ^  ::        | +> Illustration +. [| Stravinsky (Music) :: Picasso "!" Read (Low) ::\ (High) Write
+       ^  ::        | +> Illustration \\ [| Stravinsky (Music) :: Picasso "!" Read (Low) ::\ (High) Write
 
        ^  +         | +> Implement 
-                    | +> " Classification_And_Regression_Tree + Column_Name'/ Node "
        ^  +<        | +> Implement>Subject 
        ^  ++        | +> Solution 
        ^  ++<       | +> Solution>Subject 
@@ -39,14 +38,14 @@ Symbol \  \s\s      | +> Description
 
        ^  ,+        | +> Perbaiki!Mengobati
        ^  ,-        | +> Merusak!Injure
-       ^  ,++       | +> Produce +. [| Chef ,++ Meat
-                       ^ Transform +. [| Chef ,++ (Raw_Food) Meat
+       ^  ,++       | +> Produce \\ [| Chef ,++ Meat
+                       ^ Transform \\ [| Chef ,++ (Raw_Food) Meat
        ^  ,--       | +> Kill
        ^  ,+-       | +> Regulate
 
        ^  \         | +> Category,explicit!!As!>Description!!Specific_Application
        ^  >         | +> Category,implicit!!Case
-       ^  `         | +> OneCategory_Instance!Example
+       ^  \\        | +> OneCategory_Instance!Example
        ^  %>        | +> Based_on
 
        ^  ><        | +> Contradiction
@@ -58,8 +57,8 @@ Symbol \  \s\s      | +> Description
 
        ^  ,         | +> Description!Compund_verb
                        ^ Characteristic,possessed
-       ^  .         | +> In!Nominal
-       ^  ..        | +> On
+       ^  ..        | +> In!Nominal
+       ^  ...       | +> On
        ^  .:        | +> Through!Nominal
        ^  .=        | +> Between!Nominal
        ^  .<        | +> From!Nominal
@@ -75,7 +74,7 @@ Symbol \  \s\s      | +> Description
        ^  ./        | +> As
        ^  ;         | = [[,.]] +> In
 
-       ^  #         | +> State!Believe +. [| Noun # Noun #verb
+       ^  #         | +> State!Believe \\ [| Noun # Noun #verb
        ^  > #       | +> Extract
        ^  < #       | +> Signifying_Event
        ^  + #       | +> Process>Method!Rules
@@ -86,68 +85,57 @@ Symbol \  \s\s      | +> Description
        ^  [|        | +> CodeBlock
                        ^ Skipping_Noun
 
-       ^  _         | +> Be!Become +. [| He_ unstable
-       ^  +_        | +> Dynamic_Noun>More +. [| Scarcity+_ ,> Value
-       ^  -_        | +> Dynamic_Noun>Less +. [| Carbs-_ healthier
+       ^  +_        | +> Dynamic_Noun>More \\ [| Scarcity+_ ,> Value
+       ^  -_        | +> Dynamic_Noun>Less \\ [| Carbs-_ healthier
 
 ####################################################################################################
 
 NounSymbol \
-           ^  {     | +> Main_Indicator!Referring-Main
-           ^  &     | +> Previous_Symbol
-           ^  \s{   | +> Refer-Description,separated--Space
+           ^  }     | +> Subject_TempMain!Noun_TempMain
+           ^  {     | +> Subject_Main!Noun_Main
+           ^  _     | +> Compound_Noun!New_Main
            ^  @     | +> Refer-Past
-                       ^ Referring-Statement +. @Dog@eat
-           ^  '     | +> Possession +. [That_Man'Bag]
+                       ^ Referring-Statement \\ @Dog@eat
+           ^  '     | +> Possession \\ [That_Man'Bag]
                     |  ^ Describe,previous
-           ^  "     | +> For!Purpose!Goal
            ^  ?!    | \
                       ^  !      | +> One_Word
                       ^  !>     | +> Include-Another_Self_Implicit_Category
                       ^  !!     | +> Group_Word
                       ^  !!!    | +> Previous_All
+           ^  &     | +> Previous_Symbol
 
-Assigned_Variable +. [| Apple = X
-                      | Seed.@X posionous
+Assigned_Variable \\ [| Apple = X
+                      | Seed..@X posionous
                       |] 
-
-Symbol>Verb_Preposition ~require-Main_Reset
 
 SentenceSymbol \ 
                ^  |     | +> TempMain>MultiLine
-               ^  \s}   | +> TempMain>Inline
+               ^  }     | +> TempMain>Inline
                ^  ^     | +> Symbol_Repeater
-               ^  ^^    | +> Raw_Repeater +. [|Number \ 9  } .- Tenth_One}  .+ 100
-                                              |       ^ 18 ^^       _Eight     ^^ 
-                                              |       ^ 18 ^^       _Eight     ^^
-                                              |]
-               ^  ]     | +> Main_Indicator>Statement
                ^  [     | +> TempMain>Statement
-               ^  &     | +> Statement_Order +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
-               ^  {[    | +> Refer-Main_Statement +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
+               ^  ]     | +> Main_Indicator>Statement
+               ^  {[    | +> Refer-Main_Statement \\ [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
+               ^  &     | +> Statement_Order \\ [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
 
-Doubtful_Statement :` [| I alone [?0
+Doubtful_Statement \\ [| I alone [?0
 
-Question :` [| Dog = What
+Question \\ [| Dog = What
           ^ [| Fly-Airplane = How
           ^ [| Reason{> #She # leaves-me = What
 
 
 
 ####################################################################################################
-Sample :`
+Sample \\
 
 
-Development_principle{/Noun
-Development_principle{/Noun
-Development-{Knowledge'bad{'good
-Development-{Knowledge'bad{good
-Development-{Knowledge{bad{good
+Development_Principle{/Noun
+Development_Principle{/Noun
+Development-Knowledge,bad,good
+
 
 Development/Object{/Noun
-
-Development-[],good,bad
-Development-{[]'good{'bad
 
 Symphony6'Tchaikovsky
 
@@ -160,9 +148,9 @@ generate- Sentence { ~not_require- Formal_Grammar_Knowledge
 He give-Apple..> Him
 Agustinus dibiayai{- Pendidikan
 
-Agustinus dibiayai-Pendidikan{--Ayah
-Agustinus dibiayai-Pendidikan {-- Ayah
-Agustinus dibiayai- Pendidikan {-- Ayah
+Agustinus dibiayai-Pendidikan}--Ayah
+Agustinus dibiayai-Pendidikan_}-- Ayah
+Agustinus dibiayai- Pendidikan_}-- Ayah
 
 FaureRequiem change-Key<.Dminor.>Dmajor
 FaureRequiem change-Key.<Dminor.>Dmajor
