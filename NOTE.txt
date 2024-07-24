@@ -6,8 +6,6 @@ Symbol \  \s\s      | +> Description
        ^  -         | +> Object!List!Subtopic?Scope
        ^  --        | +> Subject
 
-       ^  #         | +> Believe
-
        ^  %         | +> Parameter
        ^  :         | +> Relation
                        ^ Correspondency' +. [| Operation \ Read : Low
@@ -48,8 +46,7 @@ Symbol \  \s\s      | +> Description
 
        ^  \         | +> Category,explicit!!As!>Description!!Specific_Application
        ^  >         | +> Category,implicit!!Case
-       ^  `         | +> OneCategory_Instance
-       ^  :`        | +> Example
+       ^  `         | +> OneCategory_Instance!Example
        ^  %>        | +> Based_on
 
        ^  ><        | +> Contradiction
