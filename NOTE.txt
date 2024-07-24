@@ -1,114 +1,114 @@
 
 ####################################################################################################
 
-Symbol \  \s\s      | +: Description
+Symbol \  \s\s      | +> Description
                        ^ Characteristic,possessed
-       ^  -         | +: Object!List!Subtopic?Scope
-       ^  --        | +: Subject
+       ^  -         | +> Object!List!Subtopic?Scope
+       ^  --        | +> Subject
 
-       ^  #         | +: Believe
+       ^  #         | +> Believe
 
-       ^  %         | +: Parameter
-       ^  :         | +: Relation
-                       ^ Correspondency' +. [| Operation \ Read  :: Low
-                                             |           ^ Write  : High
+       ^  %         | +> Parameter
+       ^  :         | +> Relation
+                       ^ Correspondency' +. [| Operation \ Read : Low
+                                             |           ^ Write :\ High
                                              |]
 
-       ^  =         | +: Name
-       ^  ==        | +: Definition
-       ^  =%        | +: Measurement_of
-       ^  =\        | +: Composition
-       ^  =`        | +: Part
-       ^  ==>       | +: Real_Procedural_Event
-       ^  ==`       | +: Part_Process
-       ^  :=>       | +: Real_Procedural_Event
-       ^  :=        | +: Illustration +. [| Stravinsky (Music) := Picasso "!" Read (Low) := (High) Write
+       ^  =         | +> Name
+       ^  ==        | +> Definition
+       ^  =%        | +> Measurement_of
+       ^  =\        | +> Composition
+       ^  =`        | +> Part
+       ^  ==>       | +> Real_Procedural_Event
+       ^  ==`       | +> Part_Process
+       ^  :=>       | +> Real_Procedural_Event
+       ^  ::        | +> Illustration +. [| Stravinsky (Music) :: Picasso "!" Read (Low) ::\ (High) Write
 
-       ^  +         | +: Implement 
-                    | +: " Classification_And_Regression_Tree + Column_Name'/ Node "
-       ^  +<        | +: Implement>Subject 
-       ^  ++        | +: Solution 
-       ^  ++<       | +: Solution>Subject 
-       ^  +-        | +: Menerima?Mengurus-Input
-       ^  +>        | +: Tugas!Fungsi
+       ^  +         | +> Implement 
+                    | +> " Classification_And_Regression_Tree + Column_Name'/ Node "
+       ^  +<        | +> Implement>Subject 
+       ^  ++        | +> Solution 
+       ^  ++<       | +> Solution>Subject 
+       ^  +-        | +> Mengurus-Input
+       ^  +>        | +> Tugas!Fungsi
 
-       ^  +%        | +: Positive_Correlation
-       ^  -%        | +: Negative_Correlation
-       ^  +=        | +: Increase
-       ^  -=        | +: Decrease
-       ^  +\        | +: Advantage
-       ^  -\        | +: Disadvantage!Problem>Subject
+       ^  +%        | +> Positive_Correlation
+       ^  -%        | +> Negative_Correlation
+       ^  +=        | +> Increase
+       ^  -=        | +> Decrease
+       ^  +\        | +> Advantage
+       ^  -\        | +> Disadvantage!Problem>Subject
 
-       ^  ,+        | +: Perbaiki!Mengobati
-       ^  ,-        | +: Merusak!Injure
-       ^  ,--       | +: Regulate?Mengatur
-       ^  ,++       | +: Support
-       ^  ,>        | +: Produce +. [| Chef ,> Meat
-                       ^ Transform +. [| Chef ,> (Raw_Food) Meat
+       ^  ,+        | +> Perbaiki!Mengobati
+       ^  ,-        | +> Merusak!Injure
+       ^  ,++       | +> Produce +. [| Chef ,++ Meat
+                       ^ Transform +. [| Chef ,++ (Raw_Food) Meat
+       ^  ,--       | +> Kill
+       ^  ,+-       | +> Regulate
 
-       ^  \         | +: Category,explicit!!As!>Description!!Specific_Application
-       ^  >         | +: Category,implicit!!Case
-       ^  `         | +: OneCategory_Instance
-       ^  :`        | +: Example
-       ^  %>        | +: Based_on
+       ^  \         | +> Category,explicit!!As!>Description!!Specific_Application
+       ^  >         | +> Category,implicit!!Case
+       ^  `         | +> OneCategory_Instance
+       ^  :`        | +> Example
+       ^  %>        | +> Based_on
 
-       ^  ><        | +: Contradiction
-       ^  <>        | +: SameTime
-       ^  >>        | +: Goal
-       ^  ->        | +: Cause
-       ^  =>        | +: After!Before
-       ^  >=>       | +: Since!Until
+       ^  ><        | +> Contradiction
+       ^  <>        | +> SameTime
+       ^  >>        | +> Goal
+       ^  ->        | +> Cause
+       ^  =>        | +> After!Before
+       ^  >=>       | +> Since!Until
 
-       ^  ,         | +: Description!Compund_verb
+       ^  ,         | +> Description!Compund_verb
                        ^ Characteristic,possessed
-       ^  .         | +: In!Nominal
-       ^  ..        | +: On
-       ^  .:        | +: Through!Nominal
-       ^  .=        | +: Between!Nominal
-       ^  .<        | +: From!Nominal
+       ^  .         | +> In!Nominal
+       ^  ..        | +> On
+       ^  .:        | +> Through!Nominal
+       ^  .=        | +> Between!Nominal
+       ^  .<        | +> From!Nominal
                        ^ End_Form/Symbol_Description
-       ^  .>        | +: To!Nominal
+       ^  .>        | +> To!Nominal
                        ^ Begin_Form/Symbol_Description
-       ^  .,        | +: With!Than
-       ^  .;        | +: For
-       ^  .-        | +: Less
-       ^  .+        | +: More
-       ^  .%        | +: According
-       ^  .\        | +: Like
-       ^  ./        | +: As
-       ^  ;         | = [[,.]] +: In
+       ^  .,        | +> With!Than
+       ^  .;        | +> For
+       ^  .-        | +> Less
+       ^  .+        | +> More
+       ^  .%        | +> According
+       ^  .\        | +> Like
+       ^  ./        | +> As
+       ^  ;         | = [[,.]] +> In
 
-       ^  #         | +: State!Believe +. [| Noun # Noun #verb
-       ^  > #       | +: Extract
-       ^  < #       | +: Signifying_Event
-       ^  + #       | +: Process>Method!Rules
+       ^  #         | +> State!Believe +. [| Noun # Noun #verb
+       ^  > #       | +> Extract
+       ^  < #       | +> Signifying_Event
+       ^  + #       | +> Process>Method!Rules
  
-       ^  ~         | +: Not
-       ^  ~\s       | +: Potential
-       ^  ()        | +: Symbol_Argument
-       ^  [|        | +: CodeBlock
+       ^  ~         | +> Not
+       ^  ~\s       | +> Potential
+       ^  ()        | +> Symbol_Argument
+       ^  [|        | +> CodeBlock
                        ^ Skipping_Noun
 
-       ^  _         | +: Be!Become +. [| He_ unstable
-       ^  +_        | +: Dynamic_Noun>More +. [| Scarcity+_ ,> Value
-       ^  -_        | +: Dynamic_Noun>Less +. [| Carbs-_ healthier
+       ^  _         | +> Be!Become +. [| He_ unstable
+       ^  +_        | +> Dynamic_Noun>More +. [| Scarcity+_ ,> Value
+       ^  -_        | +> Dynamic_Noun>Less +. [| Carbs-_ healthier
 
 ####################################################################################################
 
 NounSymbol \
-           ^  {     | +: Main_Indicator!Referring-Main
-           ^  &     | +: Previous_Symbol
-           ^  \s{   | +: Refer-Description,separated--Space
-           ^  @     | +: Refer-Past
+           ^  {     | +> Main_Indicator!Referring-Main
+           ^  &     | +> Previous_Symbol
+           ^  \s{   | +> Refer-Description,separated--Space
+           ^  @     | +> Refer-Past
                        ^ Referring-Statement +. @Dog@eat
-           ^  '     | +: Possession +. [That_Man'Bag]
+           ^  '     | +> Possession +. [That_Man'Bag]
                     |  ^ Describe,previous
-           ^  "     | +: For!Purpose!Goal
+           ^  "     | +> For!Purpose!Goal
            ^  ?!    | \
-                      ^  !      | +: One_Word
-                      ^  !>     | +: Include-Another_Self_Implicit_Category
-                      ^  !!     | +: Group_Word
-                      ^  !!!    | +: Previous_All
+                      ^  !      | +> One_Word
+                      ^  !>     | +> Include-Another_Self_Implicit_Category
+                      ^  !!     | +> Group_Word
+                      ^  !!!    | +> Previous_All
 
 Assigned_Variable +. [| Apple = X
                       | Seed.@X posionous
@@ -117,17 +117,17 @@ Assigned_Variable +. [| Apple = X
 Symbol>Verb_Preposition ~require-Main_Reset
 
 SentenceSymbol \ 
-               ^  |     | +: TempMain>MultiLine
-               ^  \s}   | +: TempMain>Inline
-               ^  ^     | +: Symbol_Repeater
-               ^  ^^    | +: Raw_Repeater +. [|Number \ 9  } .- Tenth_One}  .+ 100
+               ^  |     | +> TempMain>MultiLine
+               ^  \s}   | +> TempMain>Inline
+               ^  ^     | +> Symbol_Repeater
+               ^  ^^    | +> Raw_Repeater +. [|Number \ 9  } .- Tenth_One}  .+ 100
                                               |       ^ 18 ^^       _Eight     ^^ 
                                               |       ^ 18 ^^       _Eight     ^^
                                               |]
-               ^  ]     | +: Main_Indicator>Statement
-               ^  [     | +: TempMain>Statement
-               ^  &     | +: Statement_Order +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
-               ^  {[    | +: Refer-Main_Statement +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
+               ^  ]     | +> Main_Indicator>Statement
+               ^  [     | +> TempMain>Statement
+               ^  &     | +> Statement_Order +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
+               ^  {[    | +> Refer-Main_Statement +. [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
 
 Doubtful_Statement :` [| I alone [?0
 
