@@ -80,13 +80,12 @@ Symbol \  \s\s      | +> Description
        ^  + #       | +> Process>Method!Rules
  
        ^  ~         | +> Not
-       ^  ~~        | +> Potential
+       ^  `         | +> Potential
        ^  ()        | +> Symbol_Argument
        ^  [|        | +> CodeBlock
-                       ^ Skipping_Noun
 
-       ^  +_        | +> Dynamic_Noun>More \\ [| Scarcity+_ ,> Value
-       ^  -_        | +> Dynamic_Noun>Less \\ [| Carbs-_ healthier
+       ^  _+_        | +> Dynamic_Noun>More \\ [| Scarcity_+_ ,> Value
+       ^  _-_        | +> Dynamic_Noun>Less \\ [| Carbs_-_ healthier
 
 ####################################################################################################
 
@@ -115,7 +114,7 @@ SentenceSymbol \
                ^  [     | +> TempMain>Statement
                ^  ]     | +> Main_Indicator>Statement
                ^  {[    | +> Refer-Main_Statement \\ [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
-               ^  &     | +> Statement_Order \\ [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
+               ^  *     | +> Statement_Order \\ [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]*]-> Absurdity.World
 
 Doubtful_Statement \\ [| I alone [?0
 
