@@ -1,127 +1,131 @@
 
 ####################################################################################################
 
-Symbol \  \s\s      | +> Description
+Symbol \
+       ^  \s        | ++ Description
                        ^ Characteristic,possessed
-       ^  -         | +> Object!List!Subtopic?Scope
-       ^  --        | +> Subject
 
-       ^  %         | +> Parameter
-       ^  :         | +> Relation
-                       ^ Correspondency' \\ [| Operation \ Read : Low
-                                             |           ^ Write :\ High
+       ^  -         | ++ Object!List!Subtopic?Scope
+       ^  --        | ++ Subject
+       ^  #         | ++ State!Believe \\ [| Noun # Noun # verb
+       ^  ::        | ++ Illustration \\ [| Stravinsky: Music :: Picasso "!" Read: Low :: High: Write
+                       ^ Correspondency{ \\ [| Operation \ Read :: Low
+                                             |           ^ Write :&: High
                                              |]
 
-       ^  =         | +> Name
-       ^  ==        | +> Definition
-       ^  =%        | +> Measurement_of
-       ^  =\        | +> Composition
-       ^  =`        | +> Part
-       ^  ==>       | +> Real_Procedural_Event
-       ^  ==`       | +> Part_Process
-       ^  :=>       | +> Real_Procedural_Event
-       ^  ::        | +> Illustration \\ [| Stravinsky (Music) :: Picasso "!" Read (Low) ::\ (High) Write
+       ^  ~         | ++ Not
+       ^  `         | ++ Potential
+       ^  [|        | ++ CodeBlock
 
-       ^  +         | +> Implement 
-       ^  +<        | +> Implement>Subject 
-       ^  ++        | +> Solution 
-       ^  ++<       | +> Solution>Subject 
-       ^  +-        | +> Mengurus-Input
-       ^  +>        | +> Tugas!Fungsi
+       ##################################################
 
-       ^  +%        | +> Positive_Correlation
-       ^  -%        | +> Negative_Correlation
-       ^  +=        | +> Increase
-       ^  -=        | +> Decrease
-       ^  +\        | +> Advantage
-       ^  -\        | +> Disadvantage!Problem>Subject
+       ^  =         | ++ Name
+       ^  ==        | ++ Definition
+       ^  %         | ++ Parameter
+       ^  =%        | ++ Measurement_of
 
-       ^  ,+        | +> Perbaiki!Mengobati
-       ^  ,-        | +> Merusak!Injure
-       ^  ,++       | +> Produce \\ [| Chef ,++ Meat
-                       ^ Transform \\ [| Chef ,++ (Raw_Food) Meat
-       ^  ,--       | +> Kill
-       ^  ,+-       | +> Regulate
+       ^  \         | ++ Category,explicit!!As!>Description!!Specific_Application
+       ^  >         | ++ Category,implicit!!Case!!Based_on
+       ^  \\        | ++ OneCategory_Instance!Example
+       ^  \=        | ++ Composition
+       ^  >=        | ++ Part
+       ^  > #       | ++ Extract
+       ^  < #       | ++ Signifying_Event
 
-       ^  \         | +> Category,explicit!!As!>Description!!Specific_Application
-       ^  >         | +> Category,implicit!!Case
-       ^  \\        | +> OneCategory_Instance!Example
-       ^  %>        | +> Based_on
+       ^  ><        | ++ Contradiction
+       ^  <>        | ++ SameTime
+       ^  >>        | ++ Goal
+       ^  =>        | ++ After!Before
+       ^  ->        | ++ Cause
+       ^  ==>       | ++ Real_Procedural_Event
+       ^  :=>       | ++ Real_Procedural_Event,indirect
+       ^  >=>       | ++ Since!Until
+       ^  =>=       | ++ Part_Process
 
-       ^  ><        | +> Contradiction
-       ^  <>        | +> SameTime
-       ^  >>        | +> Goal
-       ^  ->        | +> Cause
-       ^  =>        | +> After!Before
-       ^  >=>       | +> Since!Until
 
-       ^  ,         | +> Description!Compund_verb
+       ##################################################
+
+       ^  +         | ++ Implement 
+       ^  +<        | ++ Implement>Subject 
+       ^  ++        | ++ Tugas!Fungsi
+       ^  ++<       | ++ Tugas!Fungsi>Subject
+       ^  +-        | ++ Mengurus-Input
+       ^  + #       | ++ Method!Rules
+
+       ^  +%        | ++ Positive_Correlation
+       ^  -%        | ++ Negative_Correlation
+       ^  +=        | ++ Increase
+       ^  -=        | ++ Decrease
+       ^  +\        | ++ Advantage
+       ^  ++\       | ++ Solution 
+       ^  -\        | ++ Disadvantage!Problem>Subject
+
+       ^  ,+        | ++ Perbaiki!Mengobati
+       ^  ,-        | ++ Merusak!Injure
+       ^  ,++       | ++ Produce   \\ [| Chef ,++ Meat
+                       ^ Transform \\ [| Chef: Raw_Food ,++  Meat
+       ^  ,--       | ++ Kill
+       ^  ,+-       | ++ Regulate
+
+       ##################################################
+
+       ^  ;         | = [[,.]]
+       ^  ,         | ++ Description!Compund_verb
                        ^ Characteristic,possessed
-       ^  ..        | +> In!Nominal
-       ^  ...       | +> On
-       ^  .:        | +> Through!Nominal
-       ^  .=        | +> Between!Nominal
-       ^  .<        | +> From!Nominal
+       ^  ..        | ++ In!Nominal
+       ^  ...       | ++ On
+       ^  .:        | ++ Through!Nominal
+       ^  .=        | ++ Between!Nominal
+       ^  .<        | ++ From!Nominal
                        ^ End_Form/Symbol_Description
-       ^  .>        | +> To!Nominal
+       ^  .>        | ++ To!Nominal
                        ^ Begin_Form/Symbol_Description
-       ^  .,        | +> With!Than
-       ^  .;        | +> For
-       ^  .-        | +> Less
-       ^  .+        | +> More
-       ^  .%        | +> According
-       ^  .\        | +> Like
-       ^  ./        | +> As
-       ^  ;         | = [[,.]] +> In
+       ^  .>>       | ++ For
 
-       ^  #         | +> State!Believe \\ [| Noun # Noun #verb
-       ^  > #       | +> Extract
-       ^  < #       | +> Signifying_Event
-       ^  + #       | +> Process>Method!Rules
- 
-       ^  ~         | +> Not
-       ^  `         | +> Potential
-       ^  ()        | +> Symbol_Argument
-       ^  [|        | +> CodeBlock
+       ^  .,        | ++ With!Than
+       ^  .%        | ++ According
 
-       ^  _+_        | +> Dynamic_Noun>More \\ [| Scarcity_+_ ,> Value
-       ^  _-_        | +> Dynamic_Noun>Less \\ [| Carbs_-_ healthier
+       ^  .-        | ++ Less
+       ^  .+        | ++ More
+       ^  .\        | ++ Like
+       ^  ./        | ++ As
+
+
 
 ####################################################################################################
 
-NounSymbol \
-           ^  {     | +> Subject_TempMain!Noun_TempMain
-           ^  }     | +> New_Subject_Main!New_Noun_Main
-           ^  @     | +> Refer-Past
-                       ^ Referring-Statement \\ @Dog@eat
-           ^  '     | +> Possession \\ [That_Man'Bag]
-                    |  ^ Describe,previous
-           ^  ?!    | \
-                      ^  !      | +> One_Word
-                      ^  !>     | +> Include-Another_Self_Implicit_Category
-                      ^  !!     | +> Group_Word
-                      ^  !!!    | +> Previous_All
-           ^  &     | +> Previous_Symbol
-
-Assigned_Variable \\ [| Apple = X
-                      | Seed..@X posionous
-                      |] 
+OtherSymbol \
+            ^  _+_   | ++ Dynamic_Noun>More \\ [| Scarcity_+_ ,> Value
+            ^  _-_   | ++ Dynamic_Noun>Less \\ [| Carbs_-_ healthier
+            ^  @     | ++ Refer-Past
+                        ^ Referring-Statement \\ @Dog@eat
+                        ^ Refer-Subject
+            ^  '     | ++ Possession \\ [That_Man'Bag]
+                     |  ^ Describe,previous
+            ^  ?!    | \
+                       ^  !      | ++ One_Word
+                       ^  !>     | ++ Include-Another_Self_Implicit_Category
+                       ^  !!     | ++ Group_Word
+                       ^  !!!    | ++ Previous_All
+            ^  &     | ++ Previous_Symbol
 
 SentenceSymbol \ 
-               ^  |     | +> TempMain>MultiLine
-               ^  }     | +> TempMain>Inline
-               ^  ^     | +> Symbol_Repeater
-               ^  [     | +> TempMain>Statement
-               ^  ]     | +> Main_Indicator>Statement
-               ^  {[    | +> Refer-Main_Statement \\ [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World
-               ^  *     | +> Statement_Order \\ [| Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]*]-> Absurdity.World
+               ^  |     | ++ TempMain>MultiLine
+               ^  {     | ++ Subject_TempMain!Noun_TempMain
+               ^  }     | ++ New_Subject_Main!New_Noun_Main
+               ^  ^     | ++ Symbol_Repeater
+               ^  (     | ++ TempMain>Statement
+               ^  )     | ++ Main_Indicator>Statement
+               ^  ((    | ++ Refer-Main_Statement \\ [ Dog eat- Cat (-> eat- Chicken ((-> / Carnivoure
 
-Doubtful_Statement \\ [| I alone [?0
+Assigned_Variable \\ [| Apple stolen
+                      | 
+                      | Seed..@Apple posionous
+                      |] 
 
-Question \\ [| Dog = What
-          ^ [| Fly-Airplane = How
-          ^ [| Reason{> #She # leaves-me = What
+Question \\ [| What = Dog
 
+DoubtfulStatement \\ [| He `good
 
 
 ####################################################################################################
@@ -129,22 +133,23 @@ Sample \\
 
 
 Development_Principle/Noun
-Development-}Knowledge,bad,good{{,complex
+Development-Knowledge},bad,good{{,complex
 
-Development/}Object/Noun
+Development}/Object/Noun
 
 Symphony6'Tchaikovsky
 
 Kill-Chicken--Dog
 
 He give-Apple;>Him
+He give-Apple: Him
 
 Agustinus dibiayai-Pendidikan--Ayah
-Agustinus dibiayai- Pendidikan --Ayah
+Agustinus dibiayai } -Pendidikan --Ayah 
 
 FaureRequiem change-Key;<Dminor;>Dmajor
 
-Dog bite- Cat { annoys- It 
+Dog bite- Cat{ annoys- It 
 
 Dog eat- Cat } grumpy annoyed
 
@@ -155,14 +160,14 @@ Dog eat- Cat } eat- Rat } eat- Cheese
 
 He # @Rat@breed
 
-MichaelAngelo dibayar,- DaVinci melukis-Otot [<= dilahirkan
+MichaelAngelo dibayar,- DaVinci melukis-Otot (<= dilahirkan
 
-MichaelAngelo melukis- Otot [ salah
+MichaelAngelo melukis- Otot ( salah
 
-MichaelAngelo dibayar,- DaVinci melukis-Otot [<= #MichaelAngelo # - Noun
+MichaelAngelo dibayar,- DaVinci melukis-Otot (<= # MichaelAngelo # - Noun
 
-Dog eat-Cat [-> eat-Chicken [[-> / Carnivoure [[&[-> Absurdity.World
+MichaelAngelo dibayar,- DaVinci melukis-Otot (<= #@# - Noun
 
-Dog eat- Cat [-> eat- Chicken [[-> / Carnivoure [[&[-> Absurdity.World verb
+Dog eat-Cat (-> eat-Chicken (-> / Carnivoure
 
-Dog eat- Cat ]-> eat- Chicken {[-> / Carnivoure ]]&]-> Absurdity.World 
+[ Dog eat-Cat eat-Chicken ] -> [ Dog / Carnivore ]
