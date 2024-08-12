@@ -1,29 +1,27 @@
 
-- Pajak
-	=- PPN Impor
-		=- Masukan
-		=- Keluaran (offset)
-		~ persenan dihitung setelah ditambah bea masuk
-		~ tidak item spesifik
-	=- Bea masuk
-	=- PPH 
-		~ harga beli dipotong
-		-~ bukti pembayaran potongan harus diberikan ke penjual
-		=- PPH impor
-		=- PPH karyawan (gajii)
-		=- PPH jasa (transportasi)
-	=- SPT
-		-~ pribadi, persuhaan terpisah
-		~ berdasarkan pendapatan
-	=- Pajak pendapatan
+Pajak
+\ PPN} dihitung (<= [ Harga ditambah-Bea_Masuk!Biaya_pengiriman ] \ Masukan & Keluaran
+^ Bea_Masuk
+^ PPH_Impor} dihitung (<= [ Harga ditambah-Bea_Masuk!Biaya_pengiriman ]
+^ PPH_Jasa
+^ PPH Karyawan (gajii)
+=- SPT
+	-~ pribadi, persuhaan terpisah
+	~ berdasarkan pendapatan
+=- Pajak pendapatan
 
-	- Konsultan Pajak
-		- mediator antara badan dan kantor pajak
-		=-. SPT & ID-billing PPN - sales invoice pembelian, sales invoice penjualan, fraktur pajak
-		=-. SPT & ID-billing pajak pendapatan - sales invoice pembelian, sales invoice penjualan, fraktur pajak, kuitansi, nota
-		=-. SPT & ID-billing PPH jasa - invoice jasa
-		=-. SPT & ID-billing PPH karyawan - slip gaji
-		-~ ID-billing untuk pembayaran pajak
+- Konsultan Pajak
+	- mediator antara badan dan kantor pajak
+	=-. SPT & ID-billing PPN - sales invoice pembelian, sales invoice penjualan, fraktur pajak
+	=-. SPT & ID-billing pajak pendapatan - sales invoice pembelian, sales invoice penjualan, fraktur pajak, kuitansi, nota
+	=-. SPT & ID-billing PPH jasa - invoice jasa
+	=-. SPT & ID-billing PPH karyawan - slip gaji
+	-~ ID-billing untuk pembayaran pajak
+
+
+
+
+
 
 
 

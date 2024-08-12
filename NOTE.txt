@@ -116,7 +116,7 @@ SentenceSymbol \
                ^  ^     | ++ Symbol_Repeater
                ^  (     | ++ TempMain>Statement
                ^  )     | ++ Main_Indicator>Statement
-               ^  ((    | ++ Refer-Main_Statement \\ [ Dog eat- Cat (-> eat- Chicken ((-> / Carnivoure
+               ^  ((    | ++ Refer-Main_Statement \\ [ Dog eat- Cat (! eat- Chicken (-> / Carnivoure
 
 Assigned_Variable \\ [| Apple stolen
                       | 
@@ -135,7 +135,7 @@ Sample \\
 Development_Principle/Noun
 Development-Knowledge},bad,good{{,complex
 
-Development}/Object/Noun
+Development/Object/Noun
 
 Symphony6'Tchaikovsky
 
@@ -145,17 +145,19 @@ He give-Apple;>Him
 He give-Apple: Him
 
 Agustinus dibiayai-Pendidikan--Ayah
-Agustinus dibiayai } -Pendidikan --Ayah 
+Agustinus dibiayai-Pendidikan} -- Ayah
+Agustinus dibiayai- Pendidikan} - Noun
+Agustinus dibiayai} - Pendidikan -- Ayah 
 
 FaureRequiem change-Key;<Dminor;>Dmajor
 
 Dog bite- Cat{ annoys- It 
 
-Dog eat- Cat } grumpy annoyed
+Dog eat- Cat} grumpy annoyed
 
-Colour \ Red } \ Pink } \ Light_Pink
+Colour \ Red} \ Pink} \ Light_Pink
 
-Dog eat- Cat } eat- Rat } eat- Cheese
+Dog eat- Cat} eat- Rat} eat- Cheese
 @Rat breed,rapid
 
 He # @Rat@breed
