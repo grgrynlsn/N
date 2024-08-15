@@ -1,0 +1,31 @@
+
+Notation
+
+Exercise
+Read
+
+Writing
+Word_Play
+
+IT
+Journal
+
+Car
+Business
+
+####################################################################################################
+
+IT 
+\
+Git
+    \ 
+    Git Config Alias
+    Git Command
+Programming_Language
+    \
+    C++
+    Python
+    Javscript
+Design Pattern
+Debug
+Statistics
