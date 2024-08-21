@@ -1,0 +1,166 @@
+
+Symbol \
+^ ,      | ++ remain-on Subject
+^ #      | ++ Change-Subject
+^ `#     | ++ Change-Subject
+^ .      | ++ Enter
+
+^ -      | ++ Logical_Connection
+^ -      | ++ Object!List!Subtopic?Scope
+
+^ --     | ++ Passive_Voice, `shortened :>[-]
+
+^ []     | ++ State!Belief
+
+##################################################
+
+^ ;      | ++ Description, substitute ,:['] 
+^ :      | ++ Argument
+^ .:     | ++ In!Nominal
+^ ..:    | ++ On
+^ ::     | ++ Through!Nominal
+^ =:     | ++ Between!Nominal
+^ <:     | ++ From!Nominal
+            ^ End_Form/Symbol_Description
+^ >:     | ++ To!Nominal
+            ^ Begin_Form/Symbol_Description
+^ >>:    | ++ For
+
+^ ,:     | ++ With!Than
+^ %:     | ++ According
+
+^ -:     | ++ Less
+^ +:     | ++ More
+^ \:     | ++ Like
+^ /:     | ++ As
+
+##################################################
+
+^  =         | ++ Name
+^  ==        | ++ Definition
+^  %         | ++ Parameter
+^  =%        | ++ Measurement_of
+
+^  \         | ++ Category_explicit & As
+^  >         | ++ Category_implicit & Case & Based_on
+^  \\        | ++ OneCategory_Instance!Example
+^  \=        | ++ Composition
+^  >=        | ++ Part
+
+^  ><        | ++ Contradiction
+^  <>        | ++ SameTime
+^  >>        | ++ Goal
+^  =>        | ++ After!Before
+^  ->        | ++ Cause
+^  ==>       | ++ Real_Procedural_Event
+^  :=>       | ++ Real_Procedural_Event;indirect
+^  >=>       | ++ Since!Until
+^  =>=       | ++ Part_Process
+
+##################################################
+
+^  +         | ++ Implement 
+^  +<        | ++ Implement>Subject 
+^  ++        | ++ Tugas!Fungsi
+^  ++<       | ++ Tugas!Fungsi>Subject
+^  +-        | ++ Mengurus-Input
+
+^  +%        | ++ Positive_Correlation
+^  -%        | ++ Negative_Correlation
+^  +=        | ++ Increase
+^  -=        | ++ Decrease
+^  +\        | ++ Advantage
+^  ++\       | ++ Solution 
+^  -\        | ++ Disadvantage!Problem>Subject
+
+^  ,+        | ++ Perbaiki!Mengobati
+^  ,-        | ++ Merusak!Injure
+^  ,++       | ++ Produce   \\ [ Chef ,++ Meat ]
+               ^ Transform  \\ [ Chef :Raw_Food ,++  Meat ]
+^  ,--       | ++ Kill
+^  ,+-       | ++ Regulate
+
+
+####################################################################################################
+
+OtherSymbol \
+^  _     | ++ Compound
+^  _+_   | ++ Dynamic_Noun>More \\ [ Scarcity_+_ ,++ Value ]
+^  _-_   | ++ Dynamic_Noun>Less \\ [ Carbs_-_ healthier ]
+^  ~     | ++ Not
+^  `     | ++ Potential
+^  @     | ++ Refer-Past
+            ^ Referring-Statement \\ @Dog@eat
+            ^ Refer-Subject
+^  ?!    | ++ And!Or \
+^^  !
+^^  !>
+^^  !!
+
+SentenceSymbol \ 
+^  (     | ++ TempMain>Noun
+^  )     | ++ Main_Indicator>Noun
+^  [     | ++ TempMain>Statement
+^  \s[   | ++ Main_Statement
+^  [     | ++ Refer-Main_Statement \\ [ Dog eat Cat ]! eat Chicken [-> / Carnivoure
+^  []    | ++ Special_Noun
+^  ""    | ++ Quotation
+^  ^     | ++ Symbol_Repeater
+^  &     | ++ Previous_Symbol
+^  |     | ++ Visual_Aid
+
+
+####################################################################################################
+
+Separate Object Construct from Object Description
+
+Object \
+^ Noun
+^ Statement
+^ List
+
+
+####################################################################################################
+Sample \\
+
+Development_Principle/Noun
+
+Development-Knowledge);bad;good((;complex
+
+Development/Object/Noun
+
+Symphony6'Tchaikovsky
+
+Kill-Chicken--Dog
+
+He give Apple :Him
+
+Agustinus dibiayai- Ayah :Pendidikan
+
+Faure_Requiem change Key <:Dminor >:Dmajor
+
+Dog bite Cat# annoys It 
+
+Colour \ Red# \ Pink## \ Light_Pink
+
+Dog eat Cat# eat Rat## eat Cheese
+
+@Rat breed-rapid
+
+He [ @Rat@breed ]
+
+MichaelAngelo dibayar -:DaVinci, melukis Otot ]<=, dilahirkan
+
+MichaelAngelo melukis Otot ]; salah
+
+[ Dog eat Cat, eat Chicken ] -> Dog / Carnivore
+
+Calvinism +[ Christian believe Total_Depravitiy && Christian believe Unconditional_Election  
+
+
+####################################################################################################
+
+
+
+
+
