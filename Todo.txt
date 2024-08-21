@@ -1,31 +1,30 @@
-
-Notation
-
 Exercise
-Read
 
-Writing
-Word_Play
+Notation ! Think ! Writing
+Design_Pattern ! Programming_Language
+Lute ! Pronounciation
+Psalm!Proverbs ! Gospel!Letters
 
-IT
-Journal
+Jordan_Peterson
+Julian
+Lacan ! Zizek ! Jung
+German
 
 Car
 Business
 
 ####################################################################################################
 
-IT 
-\
-Git
-    \ 
-    Git Config Alias
-    Git Command
-Programming_Language
-    \
-    C++
-    Python
-    Javscript
-Design Pattern
-Debug
-Statistics
+IT \
+^ Git \ 
+^^ Git Config Alias
+^^ Git Command
+
+^ Programming_Language \
+^^ C++
+^^ Python
+^^ Javscript
+
+^ Design Pattern
+^ Debug
+^ Statistics

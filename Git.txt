@@ -18,122 +18,90 @@ git clean -df
 
 ###################################################################################
 
-"git config --list"
+git config --list
 
+git init
+git status
+git rm
 
+git add .
+git commit -m '...'
+    memindahkan Head!Current.:Branch
+git commit -am '...'
+    +- Modified.File
 
-"git init"
+git log -3
+git log --file.txt
 
-"git status"
+git checkout 44adfc5
+    ,++ Detached_Head, 
+    => 
+    ^ Create-branch
+    ^ Merge,:New_Branch 
+git checkout 44adfc5 -- file.txt
+    ~memindahkan Head, memindahakan File :>StagingArea ]=> Commit
 
-"git rm"
-
-
-
-"git add ."
-
-"git commit -m""menambah garis"""
-, memindahkan- Head!Current.Branch
-
-"git commit -am""menambah garis"""
-++: Modified.File
-
-
-
-"git log -3"
-
-"git log --file.txt"
-
-"git checkout 44adfc5"
-,> Detached.Head =>~ *create-branch'=>~ *merge: New.Branch 
-
-"git checkout 44adfc5 -- file.txt"
-, tidak.memindahkan'-Head ,memindahakan-file'>)StagingArea'=>~ *commit
-
- 
 
 ####################################################################################################
 
-"git branch"
-, check
+git branch
+git branch --merged
+git branch dosen
+    belum-pindah >:Branch_Baru
 
-"git branch dosen"
-, blm.pindah'-Branch,baru
+git checkout dosen
+git checkout -b dosen
+    otomatis-membuat Branch
 
-"git branch --merged"
-, check
+git merge BranchName
+    <= Head.:Moving_Branch
+    > 
+    ^ FastForward
+    ^ Three_Way_Merge membuat Commit_Gabungan
+        ==> 
+        ^ Create-Resolve_File
+        ^ Commit 
 
+git branch -d dosen
+    delete Branch
+git branch -D dosen
+    +- Branch# belum-dimerged
 
-
-"git checkout dosen"
-
-"git checkout -b dosen"
-, otomatis.membuat'-Branch
-
-
-
-"git merge BranchName"
-<- Head.(Moving.Branch)
->> FastForward
- ^ ThreeWayMerge, membuat- Commit.Gabungan
-   ^^ < Case>Conflict'==> *create-Resolve.File
-                        ^ *add>)StagingArea
-                        ^ *commit 
-
-
-
-"git branch -d dosen"
-, delete-Branch
-
-"git branch -D dosen"
-++: Branch,blm.dimerged
-
-"git push RemoteName -d branchName"
+git push RemoteName -d branchName
 
 
 
 ####################################################################################################
 
-"git clone https://"
-, otomatis.menambah- Init!Remote
+git clone https://
+    otomatis-menambah- Init!Remote
 
+git remote
+    check
+git remote add RemoteName https://
+    initiate Relation, allow Multiple-Remote
 
+git push
+    fast_forward_merge Remote >:Current_Branch, `create Branch .:Remote
+git push RemoteName BranchName
+git push -u RemoteName BranchName
 
-"git push"
-, fastForwardMerge-Remote'>) Current.Branch ,can.create'-Branch'.(Remote)
+git fetch
+    update Remote.:Graph
+git fetch Remote_Name
 
-"git push RemoteName BranchName"
+git pull
+    otomatis-fetch, = Merge,:Remote 
+    ==> 
+    ^ Create-Resolve=:Edited_Remote!!Local
+    ^ Add ! Commit
+    ^ Push
 
-"git push -u RemoteName BranchName"
+git merge RemoteName/BranchName
+    fast_forward_merge Local_Head >:Remote
 
-
-
-"git remote"
-, check
-
-"git remote add RemoteName https://"
-, initiate-Relation ,allow-Multiple.Remote
-
-
-
-"git fetch"
-, update-Remote'.(Graph)
-
-"git fetch remoteName"
-
-"git pull"
-, otomatis.fetch = *merge,with- Remote 
-< Case>Conflict'==> *create-Resolve:(Edited.Remote!!Local) 
-                  ^ *add!commit
-                  ^ *push
-
-"git merge RemoteName/BranchName"
-, fastForwardMerge- Local.Head;>) Remote
-
-
-
-"git rebase BranchName"
-, memindahkan- Commit.Pertama'>Current.Branch;>(BranchName)
+git rebase BranchName
+    memindahkan Commit_Pertama>Current_Branch >:BranchName
 
 
 

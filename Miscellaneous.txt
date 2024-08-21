@@ -1,50 +1,50 @@
 
+I == Subject# thrown >:Group_of_Objects## cannot-be-grasped ## can-only-give Effect.
+
+Being == Experience# > [ A_Man walk ,:God ].
+
+God == First-Empty_Semantic# Power## ++ Organize=:Legitimization.
+== Vocbaulary# naturally-used, 'Meaning piled_up <- Lack>Vocabulary_Generation.
+
+Old_Testament born <:Experience/Self!Nation# interpreted-using Rationalism <- Their_People not-yet-contaminated- Empiricism.
+
+Death_of_God begin Move<:Rationalism>:Empiricism <- God == Central-Vocubalary>Rationalism.
+<- God linked >:Morality ] -> God omnibenovelence ]-> Gospel [<- Moral_Principle used /:Political-Tool.
+
+
 ####################################################################################################
 
-World.Thought :: Abstraction >< Thought.World{: Reality
+World.:Thought :: Abstraction, >< Thought.:World# :&: Reality
 
-Development_Cycle ==> Event ~Signifier  punctuatued--Action
-                    ^ Abstraction{ punctuatued--Perception
-                    ^ New_Statement
-
-Abstraction .> Part>World [-> ,subjected--Interpretation [-> _effective"Action
-
-Algorithmic_Thinking + #Each_Line # united.,Unbouded_Predeceeding_Line
+Development_Cycle ==> 
+^ Event punctuatued- Action ]produce Abstraction
+^ Abstraction punctuatued- Perception [produce New-Statement
+     become Part_of_World ]-> subjected- Action
 
 
 ####################################################################################################
 
 Foreign_Language / Extension_Mother_Tongue
 
-Generate-Sentence ~require- Formal_Grammar_Knowledge{ require-Itself [>> Avoid-Contradiction
-@Grammar + Hidden_Word, articulated--Position
+Grammar == Hidden_Symbol,:Conditional, ++ Part_Of_Speech_Transformation & Hidden-Part_Of_Speech
+approached /:Enclosed_Functon!Mystery_Box 
 
-Grammar ,- Transformation>Part_Of_Speech
-         ^ Hidden_Part_Of_Speech
-approached./Enclosed_Functon!Mystery_Box 
+Thought == Combination_Word;punctuated 
 
-Combination_Word,punctuated [;> Meaning
+Language \= Semantic & Syntax>Sound & Syntax>Visual
 
-Language =\ Semantic & Syntax>Sound & Syntax>Visual
+Transformation>Syntax_Form,:Language_Process_+_  slower
 
-Transformation_Aspect_Language.Language_Process,+_  slower [~ => Rely-Own_Syntax_Type
-
-Combination>Association > Group1 } > Meaning!Meaning
-                                   ^ Sound!Meaning
-                                   ^ Sound!Visual
-                        ^ Group2 } > Visual!Meaning
-                                   ^ Meaning!Visual
-                        ^ Group3 } > Sound!Meaning
-                                   ^ Visual!Sound
-
-Resource \ Song & Chant & Haiku & Karuto & Vlog & Vtuber & Movie & Manga
 
 ####################################################################################################
 
+Resource \ Song & Chant & Haiku & Karuto & Vlog & Vtuber & Movie & Manga
+
 Shinjitai = Simplified_Kanji
 
-Joyo_Kanji = Common_Kanji \ Shoukei_Moji{+ Pictographic
-                          ^ Shiji_Moji{ represent-Idea
-                          ^ Kaii_Moji{== Compound_Ideograph
-                          ^ Keisei_Moji{=\ Semantic_Element==Radicals
-                                         ^ Phonetic_Element{+ Onyomi
+Joyo_Kanji = Common_Kanji
+\ 
+^ Shoukei_Moji + Pictographic
+^ Shiji_Moji represent Idea
+^ Kaiji_Moji == Compound_Ideograph
+^ Keisei_Moji \= Semantic_Element==Radicals & Phonetic_Element{+ Onyomi

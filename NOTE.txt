@@ -101,7 +101,6 @@ OtherSymbol \
                         ^ Referring-Statement \\ @Dog@eat
                         ^ Refer-Subject
             ^  '     | ++ Possession \\ [That_Man'Bag]
-                     |  ^ Describe,previous
             ^  ?!    | \
                        ^  !      | ++ One_Word
                        ^  !>     | ++ Include-Another_Self_Implicit_Category
@@ -110,7 +109,6 @@ OtherSymbol \
             ^  &     | ++ Previous_Symbol
 
 SentenceSymbol \ 
-               ^  |     | ++ TempMain>MultiLine
                ^  {     | ++ Subject_TempMain!Noun_TempMain
                ^  }     | ++ New_Subject_Main!New_Noun_Main
                ^  ^     | ++ Symbol_Repeater
@@ -142,12 +140,13 @@ Symphony6'Tchaikovsky
 Kill-Chicken--Dog
 
 He give-Apple;>Him
-He give-Apple: Him
+He give-Apple :Him
 
 Agustinus dibiayai-Pendidikan--Ayah
 Agustinus dibiayai-Pendidikan} -- Ayah
 Agustinus dibiayai- Pendidikan} - Noun
 Agustinus dibiayai} - Pendidikan -- Ayah 
+Agustinus dibiayai- Ayah :Pendidikan
 
 FaureRequiem change-Key;<Dminor;>Dmajor
 
