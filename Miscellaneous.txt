@@ -18,8 +18,8 @@ World.:Thought :: Abstraction, >< Thought.:World# :&: Reality
 
 Development_Cycle ==> 
 ^ Event punctuatued- Action ]produce Abstraction
-^ Abstraction punctuatued- Perception [produce New-Statement
-     become Part_of_World ]-> subjected- Action
+^ Abstraction punctuatued- Perception ]produce New-Statement
+     become Part_of_World ]-> `subjected- Action
 
 
 ####################################################################################################
@@ -33,7 +33,7 @@ Thought == Combination_Word;punctuated
 
 Language \= Semantic & Syntax>Sound & Syntax>Visual
 
-Transformation>Syntax_Form,:Language_Process_+_  slower
+Transformation>Syntax_Form.:Language_Process_+_  slower
 
 
 ####################################################################################################
