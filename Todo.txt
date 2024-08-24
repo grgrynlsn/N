@@ -1,23 +1,20 @@
-Yukio Mishima & Norwegian Book 
-Lute German
-5 Bible Chapter
 Karate Documentary
+Yukio Mishima & Harukami Murakami
 
 ####################################################################################################
 
 Walk
 Karate
-Car
 
 Notation ! Think ! Writing
 Psalm!Proverbs!Letters ! Gospel!OldTestament
-German
+Read
 
+Bible Project
 Jordan_Peterson
 Julian
 Lacan ! Zizek ! Jung
-Bible Project
-German
+Jung
 
 
 ####################################################################################################
@@ -25,18 +22,12 @@ German
 Walk
 Karate
 
-Notation ! Think ! Writing
 Design_Pattern ! Programming_Language
 Lute ! Pronounciation
-Psalm!Proverbs!Letters ! Gospel!OldTestament
-
-Jordan_Peterson
-Julian
-Lacan ! Zizek ! Jung
-German
 
 Car
 Business
+
 
 ####################################################################################################
 
