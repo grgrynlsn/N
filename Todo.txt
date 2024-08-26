@@ -1,31 +1,23 @@
 Karate Documentary
-Yukio Mishima & Harukami Murakami
 
 ####################################################################################################
 
 Walk
 Karate
 
-Notation ! Think ! Writing
 Psalm!Proverbs!Letters ! Gospel!OldTestament
-Read
+Yukio Mishima ! Harukami Murakami
+Notation ! Think ! Writing
 
-Bible Project
-Jordan_Peterson
-Julian
-Lacan ! Zizek ! Jung
-Jung
-
-
-####################################################################################################
-
-Walk
-Karate
-
-Design_Pattern ! Programming_Language
-Lute ! Pronounciation
+Bible Project ! Jordan_Peterson
+Julian ! Zizek
+Lacan ! Jung
 
 Car
+
+####################################################################################################
+
+Lute ! Pronounciation
 Business
 
 
