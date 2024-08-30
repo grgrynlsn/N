@@ -155,7 +155,7 @@ MichaelAngelo melukis Otot ]; salah
 
 [ Dog eat Cat, eat Chicken ] -> Dog / Carnivore
 
-Calvinism + Christian believe Total_Depravitiy && Christian believe Unconditional_Election  
+Calvinism + Christian believe Total_Depravitiy && Christian believe Unconditional_Election
 
 
 ####################################################################################################
