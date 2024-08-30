@@ -1,27 +1,47 @@
-Karate Documentary
+Wake Up
+Poop
+Psalm!Proverbs!Letters
+Lacan!Jung
+
+Breakfast
+Walk
+Yukio_Mishima ! Harukami_Murakami
+
+Lunch
+Piano
+SaliharaArtCenter
+Julian!Zizek
+
+Dinner
+Walk
+Shower
+Bible_Project ! Jordan_Peterson
+
+Notation ! Think ! Writing
+Gospel!OldTestament
+Sleep
+
 
 ####################################################################################################
 
 Walk
-Karate
+German
 
 Psalm!Proverbs!Letters ! Gospel!OldTestament
-Yukio Mishima ! Harukami Murakami
+Yukio_Mishima ! Harukami_Murakami
 Notation ! Think ! Writing
 
-Bible Project ! Jordan_Peterson
+Bible_Project ! Jordan_Peterson
 Julian ! Zizek
 Lacan ! Jung
+SaliharaArtCenter
+
+
+####################################################################################################
 
 Car
 
-####################################################################################################
-
-Lute ! Pronounciation
 Business
-
-
-####################################################################################################
 
 IT \
 ^ Git \ 
