@@ -1,5 +1,5 @@
 
-I == Subject# thrown >:Group_of_Objects## cannot-be-grasped ## can-only-give Effect.
+I == Subject# thrown >:Group_of_Objects## cannot-be-grasped, can-only-give Effect.
 
 Being == Experience# > [ A_Man walk ,:God ].
 

@@ -1,3 +1,11 @@
+German Resource
+Notation Essay
+Audiobook Bible
+
+
+
+####################################################################################################
+
 Wake Up
 Poop
 Psalm!Proverbs!Letters
@@ -6,10 +14,10 @@ Lacan
 Breakfast
 Walk
 Yukio_Mishima ! Harukami_Murakami
+SaliharaArtCenter
 
 Lunch
-Piano
-SaliharaArtCenter
+German
 Julian ! Jordan_Peterson
 
 Dinner

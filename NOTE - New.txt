@@ -14,7 +14,7 @@ Symbol \
 
 ##################################################
 
-^ ;      | ++ Description, substitute ,:['] 
+^ ;      | ++ Description 
 ^ :      | ++ Argument
 ^ .:     | ++ In!Nominal
 ^ ..:    | ++ On
@@ -38,6 +38,7 @@ Symbol \
 
 ^  =         | ++ Name
 ^  ==        | ++ Definition
+^  :=        | ++ Definition
 ^  %         | ++ Parameter
 ^  =%        | ++ Measurement_of
 
@@ -89,6 +90,7 @@ OtherSymbol \
 ^  _-_   | ++ Dynamic_Noun>Less \\ [ Carbs_-_ healthier ]
 ^  ~     | ++ Not
 ^  `     | ++ Potential
+^  '     | ++ Of
 ^  @     | ++ Refer-Past
             ^ Referring-Statement \\ @Dog@eat
             ^ Refer-Subject
@@ -161,6 +163,14 @@ Calvinism + Christian believe Total_Depravitiy && Christian believe Unconditiona
 ####################################################################################################
 
 
+git merge BranchName
+    <= Head.:Moving_Branch
+    > 
+    ^ FastForward
+    ^ Three_Way_Merge membuat Commit_Gabungan
+        ==> 
+        ^ Create-Resolve_File
+        ^ Commit 
 
 
 
