@@ -1,176 +1,135 @@
 
-Symbol \
-^ ,      | ++ remain-on Subject
-^ #      | ++ Change-Subject
-^ `#     | ++ Change-Subject
-^ .      | ++ Enter
+Symbol 
+\
 
-^ -      | ++ Logical_Connection
-^ -      | ++ Object!List!Subtopic?Scope
+^  =       +: Definition
+^  ==      +: Name
+^  %       +: Parameter
+^  \       +: Category & As
+^  >       +: Implicit Category & Case & Version
+^  \\      +: Example
+^  \=      +: Composition
+^  >=      +: Part
 
-^ --     | ++ Passive_Voice, `shortened :>[-]
+^  =>      +: After & Before
+^  ->      +: Cause
+^  >>      +: Goal
+^  ><      +: Contradiction
+^  <>      +: Same Time
+^  ==>     +: Procedural Event
+^  :=>     +: Indirect Procedural Event
+^  =>=     +: Part of Process
+^  >=>     +: Since & Until
 
-^ []     | ++ State!Belief
 
-##################################################
 
-^ ;      | ++ Description 
-^ :      | ++ Argument
-^ .:     | ++ In!Nominal
-^ ..:    | ++ On
-^ ::     | ++ Through!Nominal
-^ =:     | ++ Between!Nominal
-^ <:     | ++ From!Nominal
-            ^ End_Form/Symbol_Description
-^ >:     | ++ To!Nominal
-            ^ Begin_Form/Symbol_Description
-^ >>:    | ++ For
+^  +       +: Implement 
+^  +-      +: Implement
+^  +:      +: Tugas
+^  ++      +: Solution 
+^  ++-     +: Solution 
+^  --      +: Problem
+^  ---     +: Problem
 
-^ ,:     | ++ With!Than
-^ %:     | ++ According
-
-^ -:     | ++ Less
-^ +:     | ++ More
-^ \:     | ++ Like
-^ /:     | ++ As
-
-##################################################
-
-^  =         | ++ Name
-^  ==        | ++ Definition
-^  :=        | ++ Definition
-^  %         | ++ Parameter
-^  =%        | ++ Measurement_of
-
-^  \         | ++ Category_explicit & As
-^  >         | ++ Category_implicit & Case & Based_on
-^  \\        | ++ OneCategory_Instance!Example
-^  \=        | ++ Composition
-^  >=        | ++ Part
-
-^  ><        | ++ Contradiction
-^  <>        | ++ SameTime
-^  >>        | ++ Goal
-^  =>        | ++ After!Before
-^  ->        | ++ Cause
-^  ==>       | ++ Real_Procedural_Event
-^  :=>       | ++ Real_Procedural_Event;indirect
-^  >=>       | ++ Since!Until
-^  =>=       | ++ Part_Process
-
-##################################################
-
-^  +         | ++ Implement 
-^  +<        | ++ Implement>Subject 
-^  ++        | ++ Tugas!Fungsi
-^  ++<       | ++ Tugas!Fungsi>Subject
-^  +-        | ++ Mengurus-Input
-
-^  +%        | ++ Positive_Correlation
-^  -%        | ++ Negative_Correlation
-^  +=        | ++ Increase
-^  -=        | ++ Decrease
-^  +\        | ++ Advantage
-^  ++\       | ++ Solution 
-^  -\        | ++ Disadvantage!Problem>Subject
-
-^  ,+        | ++ Perbaiki!Mengobati
-^  ,-        | ++ Merusak!Injure
-^  ,++       | ++ Produce   \\ [ Chef ,++ Meat ]
-               ^ Transform  \\ [ Chef :Raw_Food ,++  Meat ]
-^  ,--       | ++ Kill
-^  ,+-       | ++ Regulate
+^  +%      +: Positive Correlation
+^  -%      +: Negative Correlation
+^  +=      +: Increase
+^  -=      +: Decrease
+^  \+      +: Advantage
+^  \-      +: Disadvantage
+^  .+      +: Produce
+^  .-      +: Kill
+^  .++     +: Fix
+^  .--     +: Harm
+^  .+-     +: Regulate
+^  .:      +: Handle
 
 
 ####################################################################################################
 
-OtherSymbol \
-^  _     | ++ Compound
-^  _+_   | ++ Dynamic_Noun>More \\ [ Scarcity_+_ ,++ Value ]
-^  _-_   | ++ Dynamic_Noun>Less \\ [ Carbs_-_ healthier ]
-^  ~     | ++ Not
-^  `     | ++ Potential
-^  '     | ++ Of
-^  @     | ++ Refer-Past
-            ^ Referring-Statement \\ @Dog@eat
-            ^ Refer-Subject
-^  ?!    | ++ And!Or \
-^^  !
-^^  !>
-^^  !!
+Other Symbol
+\ 
+^  .        +: Alphabetic Verb
+^  :        +: Obvious Relation
+^  []       +: Interrupting Sentence
+^  #        +: Interrupting Noun
+^  :[]      +: State
+^  -        +: Verb Preposition & Passive Voice
+^  ^        +: Symbol_Repeater
+^  ,        +: Noun Separator
+^  &        +: Ambigious And
+^  @        +: Refer-Past & Referring-Statement \\ @Dog@eat
+^  _        +: Definitive
+^  {        +: Temporary Main
+^  {\s      +: Main Noun
+^  \s{      +: Previous Temporary Main
+^  }        +: Sentence Symbol
+^  ""       +: Main Sentence
+^  "        +: Temporary Main Sentence
+^  |        +: Sentence Description/ Noun
 
-SentenceSymbol \ 
-^  (     | ++ TempMain>Noun
-^  )     | ++ Main_Indicator>Noun
-^  [     | ++ TempMain>Statement
-^  \s[   | ++ Main_Statement
-^  [     | ++ Refer-Main_Statement \\ [ Dog eat Cat ]! eat Chicken [-> / Carnivoure
-^  []    | ++ Special_Noun
-^  ""    | ++ Quotation
-^  ^     | ++ Symbol_Repeater
-^  &     | ++ Previous_Symbol
-^  |     | ++ Visual_Aid
+
+####################################################################################################
+Sample \\
+
+
+Development> Principle/ Noun
+
+Development _> Knowledge{ .bad .good _.complex
+
+Development _> Knowledge{.bad {.good _.complex
+
+Development/ Object/ Noun
+
+Symphony6> Tchaikovsky
+
+
+
+He .give -Him, Apple
+
+Agustinus :dibiayai Pendidikan -Ayah
+
+Requiem>Faure :change Key -from Dminor -to Dmajor
+
+
+
+Dog .bite Cat{ annoys It 
+
+Colour \Red{ \Pink{ \Light_Pink
+
+Dog .eat Cat{ .eat Rat{ .eat Cheese
+
+
+
+
+Dog .eat Cat"" }& .eat Chicken }-> /Carnivoure
+
+MichaelAngelo .dibayar -lebih sedikit dari DaVinci .melukis Otot" }<= .dilahirkan
+
+Michael Angelo .melukis Otot" }salah
+
+This Essay :[Universal Grammar = One Of The Preconditions For The Development Of Religious Belief ]" }as :[Syntax .ordered -Grammar .can precede Its Meaning ]
+
+
+
+git merge BranchName
+<= Head In Moving Branch
+\ FastForward
+^ Three Way Merge membuat Commit Gabungan
+    ==> Create-Resolve_File
+    ^ Commit 
+
+Death of God .begin at Move From Rationalism To Empiricism"" }as[ God = Central Vocabulary Of Rationalism] }as ...
+
+Death of God .begin at Move From Rationalism To Empiricism" }as[ God = Central Vocabulary Of Rationalism] "}as ...
 
 
 ####################################################################################################
 
 Separate Object Construct from Object Description
 
-Object \
+Object
+\
 ^ Noun
 ^ Statement
 ^ List
-
-
-####################################################################################################
-Sample \\
-
-Development_Principle/Noun
-
-Development-Knowledge);bad;good((;complex
-
-Development/Object/Noun
-
-Symphony6'Tchaikovsky
-
-Kill-Chicken--Dog
-
-He give Apple :Him
-
-Agustinus dibiayai- Ayah :Pendidikan
-
-Faure_Requiem change Key <:Dminor >:Dmajor
-
-Dog bite Cat# annoys It 
-
-Colour \ Red# \ Pink## \ Light_Pink
-
-Dog eat Cat# eat Rat## eat Cheese
-
-@Rat breed-rapid
-
-He [ @Rat@breed ]
-
-MichaelAngelo dibayar -:DaVinci, melukis Otot ]<=, dilahirkan
-
-MichaelAngelo melukis Otot ]; salah
-
-[ Dog eat Cat, eat Chicken ] -> Dog / Carnivore
-
-Calvinism + Christian believe Total_Depravitiy && Christian believe Unconditional_Election
-
-
-####################################################################################################
-
-
-git merge BranchName
-    <= Head.:Moving_Branch
-    > 
-    ^ FastForward
-    ^ Three_Way_Merge membuat Commit_Gabungan
-        ==> 
-        ^ Create-Resolve_File
-        ^ Commit 
-
-
-

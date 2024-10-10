@@ -1,48 +1,26 @@
-German Resource
-Notation Essay
-Audiobook Bible
-
-
 
 ####################################################################################################
 
 Wake Up
 Poop
 Psalm!Proverbs!Letters
+Walk
 Lacan
 
 Breakfast
-Walk
-Yukio_Mishima ! Harukami_Murakami
-SaliharaArtCenter
+Read
+Jordan_Peterson
 
 Lunch
-German
-Julian ! Jordan_Peterson
+Julian
 
 Dinner
+Bible_Project
 Walk
 Shower
-Bible_Project
 
 Notation ! Think ! Writing
-Gospel!OldTestament
 Sleep
-
-
-####################################################################################################
-
-Walk
-German
-
-Psalm!Proverbs!Letters ! Gospel!OldTestament
-Yukio_Mishima ! Harukami_Murakami
-Notation ! Think ! Writing
-
-Bible_Project ! Jordan_Peterson
-Julian ! Zizek
-Lacan ! Jung
-SaliharaArtCenter
 
 
 ####################################################################################################

@@ -1,50 +1,44 @@
 
-I == Subject# thrown >:Group_of_Objects## cannot-be-grasped, can-only-give Effect.
+I = Subject{.thrown -to Group Of Objects{ .cannot be grasped .can only give Effect
 
-Being == Experience# > [ A_Man walk ,:God ].
+God = First Empty Semantic{ :Power ++ Organize -through Legitimization
+= Vocbulary{.naturally used [Its Meaning .piled up ]{<- Lack Of Vocabulary Generation
 
-God == First-Empty_Semantic# Power## ++ Organize=:Legitimization.
-== Vocbaulary# naturally-used # 'Meaning piled_up <- Lack>Vocabulary_Generation.
-
-Old_Testament born <:Experience/Self!Nation# interpreted-using Rationalism <- Their_People not-yet-contaminated- Empiricism.
-
-Death_of_God begin Move<:Rationalism>:Empiricism ]<- God == Central-Vocubalary>Rationalism.
-<- God linked >:Morality ] -> God omnibenovelence ]-> Gospel [<- Moral_Principle used /:Political-Tool.
+Death of God .begin at Move From Rationalism To Empiricism" }as[ God = Central Vocubalary Of Rationalism]
+<- [God .linked to Morality]{ <- [Moral Principle used as Political-Tool] <- [God .omnibenovelence]{-> Gospel
 
 
-####################################################################################################
+###################################################################################################
 
-World.:Thought :: Abstraction, >< Thought.:World# :&: Reality
+World In Thought >< Thought In World
 
-Development_Cycle ==> 
-^ Event punctuatued- Action ]produce Abstraction
-^ Abstraction punctuatued- Perception ]produce New-Statement
-     become Part_of_World ]-> `subjected- Action
+Development Cycle
+==> 
+^ Event .punctuatued -Action" }produce Abstraction
+^ Abstraction .punctuatued -Perception" }produce New Statement
+^ New Statement .affect Event
 
 
 ####################################################################################################
 
-Foreign_Language / Extension_Mother_Tongue
+Foreign Language / Extension Mother Tongue
 
-Grammar == Hidden_Symbol,:Conditional, ++ Part_Of_Speech_Transformation & Hidden-Part_Of_Speech
-approached /:Enclosed_Functon!Mystery_Box 
+Grammar = Hidden Symbol{.scripted with Conditional +- Part Of Speech Transformation .approached as Enclosed Functon
 
-Thought == Combination_Word;punctuated 
+Thought = Combination Word{.punctuated 
 
-Language \= Semantic & Syntax>Sound & Syntax>Visual
-
-Transformation>Syntax_Form.:Language_Process_+_  slower
+Transformation>Syntax Form.:Language Process +   slower
 
 
 ####################################################################################################
 
 Resource \ Song & Chant & Haiku & Karuto & Vlog & Vtuber & Movie & Manga
 
-Shinjitai = Simplified_Kanji
+Shinjitai == Simplified Kanji
 
-Joyo_Kanji = Common_Kanji
+Joyo Kanji == Common Kanji
 \ 
-^ Shoukei_Moji + Pictographic
-^ Shiji_Moji represent Idea
-^ Kaiji_Moji == Compound_Ideograph
-^ Keisei_Moji \= Semantic_Element==Radicals & Phonetic_Element{+ Onyomi
+^ Shoukei Moji + Pictographic
+^ Shiji Moji .represent Idea
+^ Kaiji Moji = Compound Ideograph
+^ Keisei Moji \= Semantic Element & Phonetic Element
